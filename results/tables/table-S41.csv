@@ -1,0 +1,11 @@
+Metric / interval,Coverage B999 / B4999 (%),Change (MCSE),Width B999 / B4999
+FSR / conditional percentile,49.1 / 49.8,+0.7 (0.33),6.08 / 6.10
+FSR / refit percentile,99.8 / 99.8,+0.0 (0.00),21.95 / 22.03
+FSR / refit basic,85.6 / 85.6,+0.0 (0.35),21.95 / 22.03
+FSR / conditional sandwich-t,50.3 / 50.3,+0.0 (0.00),6.19 / 6.19
+FSR / refit BCa,86.3 / 85.9,-0.4 (0.32),21.39 / 22.22
+recall / conditional percentile,61.6 / 61.9,+0.3 (0.39),5.58 / 5.59
+recall / refit percentile,100.0 / 100.0,+0.0 (0.00),14.59 / 14.66
+recall / refit basic,86.2 / 86.7,+0.5 (0.33),14.59 / 14.66
+recall / conditional sandwich-t,63.7 / 63.7,+0.0 (0.00),5.66 / 5.66
+recall / refit BCa,85.5 / 85.7,+0.2 (0.32),14.37 / 14.95

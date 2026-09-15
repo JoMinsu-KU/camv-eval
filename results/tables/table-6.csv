@@ -1,0 +1,6 @@
+Cohort,Joint bare / space,Late bare / space
+RLBenchFail development,0.5100 / 0.5427,0.5481 / 0.5897
+RLBenchFail evaluation,0.4915 / 0.5099,0.4936 / 0.5280
+UR5Fail transfer evaluation,0.3843 / 0.3859,0.3877 / 0.4053
+REASSEMBLE development,0.6098 / 0.6253,0.5812 / 0.6000
+REASSEMBLE evaluation,0.5566 / 0.5643,0.5644 / 0.5790

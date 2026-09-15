@@ -1,0 +1,9 @@
+Analysis,Information available at specification,Design
+Historical InternVL3.5/Qwen3-VL,Existing scores and outcomes,Retrospective
+Original calibration-aware protocol,Historical findings; SmolVLM outputs unavailable,Prospective SmolVLM and REASSEMBLE evaluations
+Supporting clustered-score contrast experiment,Original protocol specified,"Simulation contrasts with known targets, including S02/S20"
+Original overlapping-pair simulation and scorer audit,Original findings available; extensions specified before their outputs,Extensions specified before execution
+September 14 sensitivity analysis,Manuscript and assessment of the original results available,Descriptive diagnostics and a separately specified twelve-condition simulation
+September 15 stored-score and score-resolution analyses,Original outcomes and development scorer analysis available; alternative top-five probabilities stored,Post hoc recalibration on original evaluation splits; eight score-resolution/group-size conditions specified before their simulation outputs
+September 15 cohort and weak-discrimination analyses,All preceding outcomes and the subsequent assessment available,Complete-cohort descriptive audit; eight conditions and BCa construction fixed before new simulation outcomes
+Finite-bootstrap sensitivity,B=999 coverage and extreme-tail diagnostics available,"Post hoc H065_Q125 comparison at B=4,999 on the same 1,000 outer datasets"

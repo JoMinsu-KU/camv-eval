@@ -1,0 +1,17 @@
+Dataset,Context,Scorer,Failure score,Success score,Failure tied pairs,Success tied pairs
+rlbenchfail,joint,ab_bare,"0.473 [0.402, 0.549]","0.457 [0.415, 0.492]",4/276,9/276
+rlbenchfail,joint,ab_space,"0.665 [0.562, 0.731]","0.622 [0.577, 0.679]",14/276,25/276
+rlbenchfail,joint,word_bare,"0.761 [0.662, 0.849]","0.699 [0.570, 0.755]",2/276,3/276
+rlbenchfail,joint,word_space,"0.917 [0.881, 0.954]","0.884 [0.818, 0.925]",1/276,2/276
+rlbenchfail,late,ab_bare,"0.438 [0.404, 0.511]","0.449 [0.391, 0.489]",4/276,3/276
+rlbenchfail,late,ab_space,"0.651 [0.589, 0.696]","0.622 [0.593, 0.655]",1/276,2/276
+rlbenchfail,late,word_bare,"0.725 [0.691, 0.772]","0.676 [0.600, 0.775]",2/276,2/276
+rlbenchfail,late,word_space,"0.902 [0.880, 0.920]","0.874 [0.826, 0.918]",1/276,0/276
+reassemble,joint,ab_bare,"0.449 [0.392, 0.525]","0.480 [0.413, 0.531]",3/276,5/276
+reassemble,joint,ab_space,"0.622 [0.562, 0.679]","0.679 [0.622, 0.712]",18/276,18/276
+reassemble,joint,word_bare,"0.863 [0.816, 0.896]","0.854 [0.827, 0.907]",4/276,4/276
+reassemble,joint,word_space,"0.969 [0.951, 0.977]","0.972 [0.941, 0.981]",5/276,1/276
+reassemble,late,ab_bare,"0.423 [0.375, 0.472]","0.432 [0.399, 0.469]",5/276,3/276
+reassemble,late,ab_space,"0.562 [0.547, 0.641]","0.600 [0.562, 0.651]",17/276,6/276
+reassemble,late,word_bare,"0.893 [0.862, 0.914]","0.870 [0.843, 0.916]",1/276,3/276
+reassemble,late,word_space,"0.973 [0.964, 0.978]","0.971 [0.961, 0.983]",1/276,1/276

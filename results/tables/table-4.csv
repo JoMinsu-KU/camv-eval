@@ -1,0 +1,13 @@
+Application / scorer,Joint pooled,Joint pair,Late pooled,Late pair
+**Deterministic reference**,,,,
+Accept all (every application),100.000 / 100.000,100.000 / 100.000,100.000 / 100.000,100.000 / 100.000
+**Original bare-AB scoring**,,,,
+RLBench / bare,89.841 / 87.805,84.794 / 83.130,89.110 / 89.736,85.392 / 86.890
+UR5 transfer / bare,94.697 / 86.667,81.818 / 66.667,94.697 / 86.667,82.576 / 70.476
+REASSEMBLE local / bare,87.333 / 88.678,86.667 / 88.931,87.333 / 89.500,84.667 / 90.006
+RLBench-to-REASSEMBLE / bare,78.000 / 84.124,53.333 / 63.567,84.000 / 86.907,67.333 / 72.802
+**Post hoc space-AB sensitivity**,,,,
+RLBench / space,92.696 / 92.276,82.470 / 84.553,84.329 / 85.671,80.744 / 84.350
+UR5 transfer / space,90.152 / 83.810,34.091 / 20.952,43.939 / 27.619,12.121 / 11.429
+REASSEMBLE local / space,84.667 / 91.524,89.333 / 93.548,86.667 / 90.006,87.333 / 91.841
+RLBench-to-REASSEMBLE / space,92.667 / 95.699,44.000 / 49.273,62.667 / 70.588,28.000 / 38.836

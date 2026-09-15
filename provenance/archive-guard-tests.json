@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "test_cases": 6,
+  "log_sha256": "c195b4aa5a3c78210e812f3f01a1b475f32a3fb63def63e123cbd2d5ced77dfd",
+  "scope": "Traversal, absolute/drive paths, case duplicates, symlinks, no overwrite, valid extraction"
+}

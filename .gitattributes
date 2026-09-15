@@ -1,0 +1,8 @@
+# Preserve exact bytes: manifests and archived source hashes include line endings.
+* -text
+*.npz binary
+*.gz binary
+*.zip binary
+*.csv -text
+*.json -text
+*.py -text

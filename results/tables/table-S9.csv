@@ -1,0 +1,7 @@
+Dataset / context,"Valid, strict parser",Generated A / B,Response accuracy (%),Bare-AB agreement,Space-AB agreement
+RLBench / Joint,2,46 / 2,54.2,19/48,48/48
+RLBench / Single0,5,46 / 2,54.2,15/48,48/48
+RLBench / Single1,2,44 / 4,50.0,13/48,48/48
+REASSEMBLE / Joint,0,48 / 0,50.0,21/48,48/48
+REASSEMBLE / Single0,0,44 / 4,45.8,14/48,48/48
+REASSEMBLE / Single1,0,40 / 8,54.2,16/48,48/48

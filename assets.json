@@ -1,0 +1,24 @@
+{
+  "schema": "camv-github-assets-v1",
+  "version": "v8-repro-1",
+  "assets": [
+    {
+      "id": "v4",
+      "file": "CAMV-Eval_Review_Supplement_v4.zip",
+      "bytes": 503805713,
+      "sha256": "0a8538d5e867362b02e22081eaaea5d9454e607a25980a26afad9eaefda3c671"
+    },
+    {
+      "id": "v7",
+      "file": "CAMV-Eval_Minor_Revision_Audit_v7.zip",
+      "bytes": 1321453,
+      "sha256": "9809ed7ede6456617c4e223b553895d1917b1944709e9a025f2f1bf3e8eed92c"
+    },
+    {
+      "id": "v8",
+      "file": "CAMV-Eval_Final_Review_Audit_v8.zip",
+      "bytes": 1719748,
+      "sha256": "047ebb4e6f2773d1aafa001e57b82b238d199311995a8cc1d75c32c3d16fb31e"
+    }
+  ]
+}

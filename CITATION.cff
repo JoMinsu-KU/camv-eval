@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "Please cite this software and the associated manuscript when using the reproduction package. The manuscript is an author-review draft; no publication DOI is asserted."
+type: software
+title: "CAMV-Eval: Calibration and Bootstrap Inference for Multi-View Grasp Verification"
+version: v8-repro-1
+authors:
+  - family-names: Jo
+    given-names: Minsu
+    affiliation: Gyeongnam Intelligence Innovation Center
+  - family-names: Yoo
+    given-names: Namhyun
+    affiliation: Kyungnam University
+  - family-names: Yang
+    given-names: Jinhong
+    affiliation: Inje University
+license: MIT
+abstract: "Numerical reproduction of grouped calibration and bootstrap comparisons for multi-view grasp verifiers. Includes stored-score recalibration, saved-array simulation summaries, bounded deterministic regeneration, and v8 table audits. See LICENSE_SCOPE.md for the distinction between software and external data rights."
+keywords:
+  - bootstrap
+  - calibration
+  - reproducibility
+  - grasp-verification
+  - vision-language-models

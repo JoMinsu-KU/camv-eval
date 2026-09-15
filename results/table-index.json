@@ -1,0 +1,410 @@
+[
+  {
+    "table": "1",
+    "caption": "Empirical cohorts, class-contributing groups, and failure prevalence. Success/failure group counts overlap when a group contains both outcomes.",
+    "rows": 5,
+    "columns": 4,
+    "file": "results/tables/table-1.csv",
+    "display_values": true
+  },
+  {
+    "table": "2",
+    "caption": "FSR interaction coverage (%). Each entry reports fitted-policy / procedure-average coverage. C: conditional percentile; R: refit percentile; B: refit basic; S: cluster sandwich-t.",
+    "rows": 8,
+    "columns": 5,
+    "file": "results/tables/table-2.csv",
+    "display_values": true
+  },
+  {
+    "table": "3",
+    "caption": "Bootstrap-centering diagnostics from saved draws; 1,000 outer datasets per row. Complete results appear in Supplementary Appendix H.",
+    "rows": 8,
+    "columns": 9,
+    "file": "results/tables/table-3.csv",
+    "display_values": true
+  },
+  {
+    "table": "4",
+    "caption": "SmolVLM operating rates, FSR% / success recall%, with the deterministic accept-all reference. Bare is the original scoring rule; space is a post hoc paired sensitivity analysis with separate development calibration.",
+    "rows": 12,
+    "columns": 5,
+    "file": "results/tables/table-4.csv",
+    "display_values": true
+  },
+  {
+    "table": "5",
+    "caption": "Prospective interactions with refit and conditional intervals. Effects and nominal pointwise 95% limits are in percentage points. The fourth row is a prespecified exploratory transfer analysis.",
+    "rows": 4,
+    "columns": 7,
+    "file": "results/tables/table-5.csv",
+    "display_values": true
+  },
+  {
+    "table": "6",
+    "caption": "Complete-cohort descriptive AUROC, mean within camera pair and then across three seeds. Each cell gives bare / space. These estimates use the original success-positive direction and do not constitute new confirmatory tests.",
+    "rows": 5,
+    "columns": 3,
+    "file": "results/tables/table-6.csv",
+    "display_values": true
+  },
+  {
+    "table": "7",
+    "caption": "New sensitivity experiment: procedure-average FSR inference. C/R/B/A denote conditional percentile / refit percentile / refit basic / refit BCa; targets and widths are in pp. Centered rejection is distinct from interval zero exclusion. H050/H065 identify continuous marginal AUROC 0.50/0.65; C is continuous, Q125/Q500 have steps 0.125/0.5, and S denotes separation 1.5 controls.",
+    "rows": 8,
+    "columns": 7,
+    "file": "results/tables/table-7.csv",
+    "display_values": true
+  },
+  {
+    "table": "8",
+    "caption": "New sensitivity experiment: procedure-average recall inference, with the same conventions as Table 7. Coverage is reported among available intervals; all planned intervals are available.",
+    "rows": 8,
+    "columns": 6,
+    "file": "results/tables/table-8.csv",
+    "display_values": true
+  },
+  {
+    "table": "S1",
+    "caption": "Research questions, evidence, and scope of inference.",
+    "rows": 3,
+    "columns": 4,
+    "file": "results/tables/table-S1.csv",
+    "display_values": true
+  },
+  {
+    "table": "S2",
+    "caption": "Prespecified interaction conditions. Pair offsets are in score units; target shifts are in pair-standard-deviation units.",
+    "rows": 8,
+    "columns": 5,
+    "file": "results/tables/table-S2.csv",
+    "display_values": true
+  },
+  {
+    "table": "S3",
+    "caption": "Recall interaction coverage (%), using the same fitted-policy / procedure-average convention.",
+    "rows": 8,
+    "columns": 5,
+    "file": "results/tables/table-S3.csv",
+    "display_values": true
+  },
+  {
+    "table": "S4",
+    "caption": "Procedure-average targets and centered-test rejection rates. Targets are in percentage points; rejection rates are percentages. Conditional tests are evaluated against the procedure-average target, although they are constructed for the fitted-policy target.",
+    "rows": 8,
+    "columns": 5,
+    "file": "results/tables/table-S4.csv",
+    "display_values": true
+  },
+  {
+    "table": "S5",
+    "caption": "Procedure-average coverage and refit rejection rates (%) in the controlled simulation. G denotes the number of development groups and L denotes lambda; evaluation uses 120 groups.",
+    "rows": 12,
+    "columns": 5,
+    "file": "results/tables/table-S5.csv",
+    "display_values": true
+  },
+  {
+    "table": "S6",
+    "caption": "Main operating points, FSR% / success recall%. J: Joint; L: Late; GBest: Global BestSingle; PBest: PairBestSingle.",
+    "rows": 8,
+    "columns": 7,
+    "file": "results/tables/table-S6.csv",
+    "display_values": true
+  },
+  {
+    "table": "S7",
+    "caption": "Interactions after restricting source pairs to the target configuration. This post hoc sensitivity analysis is descriptive; effects are in percentage points.",
+    "rows": 8,
+    "columns": 6,
+    "file": "results/tables/table-S7.csv",
+    "display_values": true
+  },
+  {
+    "table": "S8",
+    "caption": "Bare/space AB score association and recalibration on the same observations. Tail overlap is the inclusive intersection/union; FSR and recall are percentages.",
+    "rows": 8,
+    "columns": 9,
+    "file": "results/tables/table-S8.csv",
+    "display_values": true
+  },
+  {
+    "table": "S9",
+    "caption": "Agreement with generated responses. Each row contains 48 contexts. Agreement compares the scorer decision at 0.5 with the class returned by the secondary parser.",
+    "rows": 6,
+    "columns": 6,
+    "file": "results/tables/table-S9.csv",
+    "display_values": true
+  },
+  {
+    "table": "S10",
+    "caption": "Development-sample AUROC [95% group-bootstrap CI].",
+    "rows": 4,
+    "columns": 5,
+    "file": "results/tables/table-S10.csv",
+    "display_values": true
+  },
+  {
+    "table": "S11",
+    "caption": "Space-AB operating points on the original evaluation splits, FSR% / success recall%. Each scorer uses its own development calibration. Original bare-AB outcomes remain in Supplementary Table S6.",
+    "rows": 4,
+    "columns": 5,
+    "file": "results/tables/table-S11.csv",
+    "display_values": true
+  },
+  {
+    "table": "S12",
+    "caption": "FSR interactions and paired scorer differences, pp [nominal 95% refit percentile interval]. Development/evaluation group draws are shared across scorers and seeds. The UR5 space upper endpoint is zero to numerical precision.",
+    "rows": 4,
+    "columns": 4,
+    "file": "results/tables/table-S12.csv",
+    "display_values": true
+  },
+  {
+    "table": "S13",
+    "caption": "FSR results under quantization and unequal group sizes. The target (reference MCSE) and interval width are in pp; coverage/rejection rates are percentages. N/A: null/alternative; C/Q: continuous/quantized; EQ/UQ: equal/unequal groups. Each condition has 1,000 available outer repetitions. Refit rejection estimates Type I error under N and two-sided power under A.",
+    "rows": 8,
+    "columns": 6,
+    "file": "results/tables/table-S13.csv",
+    "display_values": true
+  },
+  {
+    "table": "S14",
+    "caption": "Recall results under quantization and unequal group sizes. The target (reference MCSE) and interval width are in pp; coverage/rejection rates are percentages. N/A: null/alternative; C/Q: continuous/quantized; EQ/UQ: equal/unequal groups. Each condition has 1,000 available outer repetitions. Refit rejection estimates Type I error under N and two-sided power under A.",
+    "rows": 8,
+    "columns": 6,
+    "file": "results/tables/table-S14.csv",
+    "display_values": true
+  },
+  {
+    "table": "S15",
+    "caption": "S02 Joint-minus-Late FSR coverage for nominal 95% intervals. Widths are in percentage points.",
+    "rows": 4,
+    "columns": 4,
+    "file": "results/tables/table-S15.csv",
+    "display_values": true
+  },
+  {
+    "table": "S16",
+    "caption": "Timing of protocol specifications relative to the available results. Specifications were recorded internally without external preregistration.",
+    "rows": 8,
+    "columns": 3,
+    "file": "results/tables/table-S16.csv",
+    "display_values": true
+  },
+  {
+    "table": "S17",
+    "caption": "Bootstrap interval-center diagnostics for all reference conditions. Biases, SDs, and widths are in percentage points.",
+    "rows": 20,
+    "columns": 8,
+    "file": "results/tables/table-S17.csv",
+    "display_values": true
+  },
+  {
+    "table": "S18",
+    "caption": "Transfer operating points using six or three source camera pairs.",
+    "rows": 8,
+    "columns": 5,
+    "file": "results/tables/table-S18.csv",
+    "display_values": true
+  },
+  {
+    "table": "S19",
+    "caption": "Sensitivity to weighting and exact-pixel exclusion. Effects are in percentage points.",
+    "rows": 16,
+    "columns": 6,
+    "file": "results/tables/table-S19.csv",
+    "display_values": true
+  },
+  {
+    "table": "S20",
+    "caption": "Decision disagreement after camera-order reversal, with ranges across camera-pair/seed combinations.",
+    "rows": 8,
+    "columns": 3,
+    "file": "results/tables/table-S20.csv",
+    "display_values": true
+  },
+  {
+    "table": "S21",
+    "caption": "FSR / recall (%) under camera-order reversal and recalibration with pooled thresholds.",
+    "rows": 8,
+    "columns": 5,
+    "file": "results/tables/table-S21.csv",
+    "display_values": true
+  },
+  {
+    "table": "S22",
+    "caption": "Empirical score dependence, duplicate excess, and group sizes.",
+    "rows": 11,
+    "columns": 7,
+    "file": "results/tables/table-S22.csv",
+    "display_values": true
+  },
+  {
+    "table": "S23",
+    "caption": "Score medians [Q1, Q3] and numbers of exactly tied within-class pairs.",
+    "rows": 16,
+    "columns": 7,
+    "file": "results/tables/table-S23.csv",
+    "display_values": true
+  },
+  {
+    "table": "S24",
+    "caption": "FSR interval location and scale under the alternative in the dependence simulation. SDs and widths are in percentage points.",
+    "rows": 6,
+    "columns": 7,
+    "file": "results/tables/table-S24.csv",
+    "display_values": true
+  },
+  {
+    "table": "S25",
+    "caption": "Coverage for the alternative FSR interaction at fixed population thresholds, with 95% Wilson Monte Carlo intervals.",
+    "rows": 6,
+    "columns": 5,
+    "file": "results/tables/table-S25.csv",
+    "display_values": true
+  },
+  {
+    "table": "S26",
+    "caption": "Recall interactions and paired scorer differences, pp [pointwise nominal 95% refit percentile interval]. These post hoc intervals are unadjusted for multiplicity.",
+    "rows": 4,
+    "columns": 4,
+    "file": "results/tables/table-S26.csv",
+    "display_values": true
+  },
+  {
+    "table": "S27",
+    "caption": "Coverage (%) in the score-resolution and group-size simulation, fitted-policy / procedure-average target. C: conditional percentile; R: refit percentile; B: refit basic; S: cluster sandwich-t. Each cell is based on 1,000 repetitions.",
+    "rows": 16,
+    "columns": 6,
+    "file": "results/tables/table-S27.csv",
+    "display_values": true
+  },
+  {
+    "table": "S28",
+    "caption": "Rejection frequencies (%) [95% Wilson interval] in the score-resolution and group-size simulation. Conditional inference is evaluated against the procedure-average null. N: empirical Type I error; A: two-sided power. Wilson intervals quantify uncertainty, including when no rejection is observed.",
+    "rows": 16,
+    "columns": 4,
+    "file": "results/tables/table-S28.csv",
+    "display_values": true
+  },
+  {
+    "table": "S29",
+    "caption": "Interval-center diagnostics in the score-resolution and group-size simulation. SDs and biases are in pp. Correlation relates point-estimation error to percentile-midpoint displacement. Percentile and basic intervals have equal widths and centers reflected about the point estimate in every repetition.",
+    "rows": 16,
+    "columns": 7,
+    "file": "results/tables/table-S29.csv",
+    "display_values": true
+  },
+  {
+    "table": "S30",
+    "caption": "Mean positive-class probability mass at the threshold and recall (%), Joint pooled / Late pooled. Empirical mass counts observations tied at the selected threshold; population mass is zero for continuous score distributions. These measures differ from duplicate excess.",
+    "rows": 8,
+    "columns": 5,
+    "file": "results/tables/table-S30.csv",
+    "display_values": true
+  },
+  {
+    "table": "S31",
+    "caption": "Bare/space decision disagreement on the original evaluation splits after separate development calibration (% of sample-pair decisions), averaged over three seeds. All point fits are available. Seeds and camera pairs are averaged within each estimate; resampling operates on dependence groups.",
+    "rows": 16,
+    "columns": 5,
+    "file": "results/tables/table-S31.csv",
+    "display_values": true
+  },
+  {
+    "table": "S32",
+    "caption": "Request accounting. Availability refers to a persisted usable output, not a count of every internal forward execution.",
+    "rows": 6,
+    "columns": 3,
+    "file": "results/tables/table-S32.csv",
+    "display_values": true
+  },
+  {
+    "table": "S33",
+    "caption": "Failure-group contribution and concentration. The concentration count is descriptive and is not a coverage guarantee.",
+    "rows": 5,
+    "columns": 5,
+    "file": "results/tables/table-S33.csv",
+    "display_values": true
+  },
+  {
+    "table": "S34",
+    "caption": "Complete-cohort AUROC by method and scorer. Pair AUROC averages within-pair values; pooled AUROC includes cross-pair comparisons.",
+    "rows": 20,
+    "columns": 5,
+    "file": "results/tables/table-S34.csv",
+    "display_values": true
+  },
+  {
+    "table": "S35",
+    "caption": "Realized score summaries in the weak-discrimination and BCa experiment. Entries are averages across 1,000 outer datasets; duplicate and pair-tie measures are medians over label/pair cells within each dataset.",
+    "rows": 32,
+    "columns": 6,
+    "file": "results/tables/table-S35.csv",
+    "display_values": true
+  },
+  {
+    "table": "S36",
+    "caption": "Independent procedure-average reference values for the review sensitivity. Values and MCSEs are in pp; the null control is analytic.",
+    "rows": 16,
+    "columns": 5,
+    "file": "results/tables/table-S36.csv",
+    "display_values": true
+  },
+  {
+    "table": "S37",
+    "caption": "BCa tail diagnostics. Extreme tails use adjusted probabilities at or beyond the empirical resolution bounds $1/(B+1)$ and $B/(B+1)$; all 1,000 intervals per row are available.",
+    "rows": 16,
+    "columns": 6,
+    "file": "results/tables/table-S37.csv",
+    "display_values": true
+  },
+  {
+    "table": "S38",
+    "caption": "Complete FSR coverage (%) [95% Wilson Monte Carlo interval] in the new experiment. C/R/B/S/A denote conditional percentile / refit percentile / refit basic / conditional sandwich-t / BCa.",
+    "rows": 16,
+    "columns": 7,
+    "file": "results/tables/table-S38.csv",
+    "display_values": true
+  },
+  {
+    "table": "S39",
+    "caption": "Complete recall coverage (%) [95% Wilson Monte Carlo interval] in the new experiment. C/R/B/S/A denote conditional percentile / refit percentile / refit basic / conditional sandwich-t / BCa.",
+    "rows": 16,
+    "columns": 7,
+    "file": "results/tables/table-S39.csv",
+    "display_values": true
+  },
+  {
+    "table": "S40",
+    "caption": "Empirical score repetition and within-class pair ties (%), medians over class/pair/seed cells for the original bare scorer.",
+    "rows": 10,
+    "columns": 6,
+    "file": "results/tables/table-S40.csv",
+    "display_values": true
+  },
+  {
+    "table": "S41",
+    "caption": "Paired finite-bootstrap sensitivity in H065_Q125. Coverage addresses the procedure-average target; conditional constructions are cross-target comparisons. Changes and their paired MCSEs are in pp. Widths are in pp.",
+    "rows": 10,
+    "columns": 4,
+    "file": "results/tables/table-S41.csv",
+    "display_values": true
+  },
+  {
+    "table": "S42",
+    "caption": "Width diagnostics from saved outer records. Point SD and widths are in pp; ratios divide mean width by $3.92s_T$. Original rows cover the reference interaction and simple-contrast experiments; additional rows cover the weak-discrimination/BCa experiment. Each row uses 1,000 available outer datasets. A dash means BCa was not evaluated in that original experiment.",
+    "rows": 36,
+    "columns": 7,
+    "file": "results/tables/table-S42.csv",
+    "display_values": true
+  },
+  {
+    "table": "S43",
+    "caption": "Interval-center standard deviations in the added weak-discrimination and BCa simulation. All values are in pp and use 1,000 available outer datasets. Widths and coverage are reported separately in Tables S38–S39 and S42.",
+    "rows": 16,
+    "columns": 6,
+    "file": "results/tables/table-S43.csv",
+    "display_values": true
+  }
+]

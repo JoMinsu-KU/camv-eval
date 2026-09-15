@@ -1,0 +1,6 @@
+Cohort,Failure groups,Concentration count,Largest class weight (%),No-failure bootstrap probability
+RLBenchFail development,22,12.986,14.516,1.344e-14
+RLBenchFail evaluation,95,51.346,4.781,1.532e-59
+UR5Fail transfer evaluation,31,24.200,9.091,1.847e-21
+REASSEMBLE development,70,52.477,3.306,9.731e-49
+REASSEMBLE evaluation,21,14.881,14.000,3.380e-14

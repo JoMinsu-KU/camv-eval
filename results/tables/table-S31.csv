@@ -1,0 +1,17 @@
+Application,Policy,All,Failures,Successes
+RLBench,joint pooled,8.88,9.23,8.33
+RLBench,joint pair,11.61,12.02,10.98
+RLBench,late pooled,9.72,10.36,8.74
+RLBench,late pair,8.23,8.10,8.43
+UR5 transfer,joint pooled,5.49,4.55,6.67
+UR5 transfer,joint pair,47.68,47.73,47.62
+UR5 transfer,late pooled,54.43,50.76,59.05
+UR5 transfer,late pair,65.40,70.45,59.05
+REASSEMBLE local,joint pooled,7.34,9.33,7.15
+REASSEMBLE local,joint pair,8.03,12.00,7.65
+REASSEMBLE local,late pooled,6.53,7.33,6.45
+REASSEMBLE local,late pair,6.99,9.33,6.77
+RLBench→REASSEMBLE,joint pooled,11.84,14.67,11.57
+RLBench→REASSEMBLE,joint pair,23.45,20.00,23.78
+RLBench→REASSEMBLE,late pooled,19.76,22.67,19.48
+RLBench→REASSEMBLE,late pair,35.12,39.33,34.72

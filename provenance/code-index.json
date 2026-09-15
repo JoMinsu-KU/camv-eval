@@ -1,0 +1,296 @@
+[
+  {
+    "repository_path": "code/v4/amendments/review-response-20260915-v1/empirical/audit_empirical.py",
+    "source_archive": "v4",
+    "source_member": "amendments/review-response-20260915-v1/empirical/audit_empirical.py",
+    "sha256": "a9a1fd01db6fcb1fecc5ffeb278d9a01e8f584dc2c5f0a21afe796d9430ca3be"
+  },
+  {
+    "repository_path": "code/v4/amendments/review-response-20260915-v1/empirical/inspect_groups.py",
+    "source_archive": "v4",
+    "source_member": "amendments/review-response-20260915-v1/empirical/inspect_groups.py",
+    "sha256": "7048b767f8239003f533f9319ca47b617901d0b88c4598a50ec3c00bbc130bc2"
+  },
+  {
+    "repository_path": "code/v4/amendments/review-response-20260915-v1/simulation/finalize_tail_check_v2.py",
+    "source_archive": "v4",
+    "source_member": "amendments/review-response-20260915-v1/simulation/finalize_tail_check_v2.py",
+    "sha256": "e2be4f5817cdbccf4f1bc030d4c974ce0884a3a36f0d843e130c3ec7a81439f5"
+  },
+  {
+    "repository_path": "code/v4/amendments/review-response-20260915-v1/simulation/numerics.py",
+    "source_archive": "v4",
+    "source_member": "amendments/review-response-20260915-v1/simulation/numerics.py",
+    "sha256": "e573abf95c95eaf4d31775c8c964bc60000a68dff0be2910052831a10b45c72d"
+  },
+  {
+    "repository_path": "code/v4/amendments/review-response-20260915-v1/simulation/review_core.py",
+    "source_archive": "v4",
+    "source_member": "amendments/review-response-20260915-v1/simulation/review_core.py",
+    "sha256": "0c659920782baa45fcc2c8188ec80ccf28b509c48628586c44234e4f02a00591"
+  },
+  {
+    "repository_path": "code/v4/amendments/review-response-20260915-v1/simulation/run_review.py",
+    "source_archive": "v4",
+    "source_member": "amendments/review-response-20260915-v1/simulation/run_review.py",
+    "sha256": "739ddb431f01ea3dbac4e5a9db1bf691cbf48f91b01ad285fed507049c314dc6"
+  },
+  {
+    "repository_path": "code/v4/amendments/review-response-20260915-v1/simulation/run_tail_check.py",
+    "source_archive": "v4",
+    "source_member": "amendments/review-response-20260915-v1/simulation/run_tail_check.py",
+    "sha256": "8c8817a3bd7007f618aad55b25153acd57148b3e663df678cf9d4856c08320ae"
+  },
+  {
+    "repository_path": "code/v4/amendments/review-response-20260915-v1/simulation/run_tail_check_v2.py",
+    "source_archive": "v4",
+    "source_member": "amendments/review-response-20260915-v1/simulation/run_tail_check_v2.py",
+    "sha256": "79fc1fb9edee65cc1d6856243ef5cadcab21a4e9bc2e55582ee965f7e961259c"
+  },
+  {
+    "repository_path": "code/v4/amendments/review-response-20260915-v1/simulation/summarize_review.py",
+    "source_archive": "v4",
+    "source_member": "amendments/review-response-20260915-v1/simulation/summarize_review.py",
+    "sha256": "f2fead42a95ac64b07429ecaa0e9a6000eb5072fd8df202a08ed77c7e028d693"
+  },
+  {
+    "repository_path": "code/v4/amendments/review-response-20260915-v1/simulation/summarize_review_v2.py",
+    "source_archive": "v4",
+    "source_member": "amendments/review-response-20260915-v1/simulation/summarize_review_v2.py",
+    "sha256": "3986624187272eccfb0fd88e7d627feaabd0953ce0df1da258338e0f7b70f0f1"
+  },
+  {
+    "repository_path": "code/v4/amendments/review-response-20260915-v1/simulation/summarize_tail_check_v2.py",
+    "source_archive": "v4",
+    "source_member": "amendments/review-response-20260915-v1/simulation/summarize_tail_check_v2.py",
+    "sha256": "2872a743e53f28bf5232e93a0257a6735450ffd2761bbe9fd46c66baa58e3349"
+  },
+  {
+    "repository_path": "code/v4/amendments/review-response-20260915-v1/theory/verify_simulation_summary.py",
+    "source_archive": "v4",
+    "source_member": "amendments/review-response-20260915-v1/theory/verify_simulation_summary.py",
+    "sha256": "5cd0236155e8bf5e1602b4b221f60c3d48db6711a052224c65714b26fa7c4542"
+  },
+  {
+    "repository_path": "code/v4/replay_review_v4.py",
+    "source_archive": "v4",
+    "source_member": "replay_review_v4.py",
+    "sha256": "5c299c780f5135c892861ef037fa6c0eb6f047c9b3e48e5e93c97ecf9404a41a"
+  },
+  {
+    "repository_path": "code/v4/staging/p0-e2e-20260914-v1/package/release-v6/src/empirical_core_v2.py",
+    "source_archive": "v4",
+    "source_member": "staging/p0-e2e-20260914-v1/package/release-v6/src/empirical_core_v2.py",
+    "sha256": "5f847634a0d5d4556d9f87cd5bf42bca31b31815002f28ee290157d29ffa9cd0"
+  },
+  {
+    "repository_path": "code/v3/amendments/score-ties-revision-20260915-v1/numerics.py",
+    "source_archive": "v3",
+    "source_member": "amendments/score-ties-revision-20260915-v1/numerics.py",
+    "sha256": "e573abf95c95eaf4d31775c8c964bc60000a68dff0be2910052831a10b45c72d"
+  },
+  {
+    "repository_path": "code/v3/amendments/score-ties-revision-20260915-v1/review/numerical-interpretation-review.py",
+    "source_archive": "v3",
+    "source_member": "amendments/score-ties-revision-20260915-v1/review/numerical-interpretation-review.py",
+    "sha256": "b6fb9248c8a3f9bb15d9b519fccd460ee97f34080f669ca4b090df9d02e625c0"
+  },
+  {
+    "repository_path": "code/v3/amendments/score-ties-revision-20260915-v1/review/v4-content-review.py",
+    "source_archive": "v3",
+    "source_member": "amendments/score-ties-revision-20260915-v1/review/v4-content-review.py",
+    "sha256": "87c6d7dc199084a7ca9f7d5b8440ad2865e3785c4533af8b3342298e52724d48"
+  },
+  {
+    "repository_path": "code/v3/amendments/score-ties-revision-20260915-v1/scorer/run_sensitivity.py",
+    "source_archive": "v3",
+    "source_member": "amendments/score-ties-revision-20260915-v1/scorer/run_sensitivity.py",
+    "sha256": "3137ffe94dd93bf92702cd1360f134a07cd0a7f9bbc9fcb30258cb451e85d52d"
+  },
+  {
+    "repository_path": "code/v3/amendments/score-ties-revision-20260915-v1/simulation/run_ties.py",
+    "source_archive": "v3",
+    "source_member": "amendments/score-ties-revision-20260915-v1/simulation/run_ties.py",
+    "sha256": "8c797a6149c248716a5b80a505e49f0210e0af6ebd42e8555ef75708dc9c1537"
+  },
+  {
+    "repository_path": "code/v3/amendments/score-ties-revision-20260915-v1/simulation/summarize_ties.py",
+    "source_archive": "v3",
+    "source_member": "amendments/score-ties-revision-20260915-v1/simulation/summarize_ties.py",
+    "sha256": "36272fb39b158d5aff01a2bc6eeff626029d0e488d503e17f2ba0dc8b40cdc9b"
+  },
+  {
+    "repository_path": "code/v3/amendments/score-ties-revision-20260915-v1/simulation/ties_core.py",
+    "source_archive": "v3",
+    "source_member": "amendments/score-ties-revision-20260915-v1/simulation/ties_core.py",
+    "sha256": "23f0de77ef68ca837ba334fd55143e633952c47edf1c88ec8bf9b63ccedf9d83"
+  },
+  {
+    "repository_path": "code/v3/replay_revision.py",
+    "source_archive": "v3",
+    "source_member": "replay_revision.py",
+    "sha256": "15146b3cc422174b5af184528086f35ce1d685e76a4a79a8df0dec6cf7ba3225"
+  },
+  {
+    "repository_path": "code/v3/staging/p0-e2e-20260914-v1/package/release-v6/replay.py",
+    "source_archive": "v3",
+    "source_member": "staging/p0-e2e-20260914-v1/package/release-v6/replay.py",
+    "sha256": "1c713fda9ae350e7aac760fbf6b97e446acb0155749924903391cde5ec0fdee3"
+  },
+  {
+    "repository_path": "code/v3/staging/p0-e2e-20260914-v1/package/release-v6/src/empirical_core_v2.py",
+    "source_archive": "v3",
+    "source_member": "staging/p0-e2e-20260914-v1/package/release-v6/src/empirical_core_v2.py",
+    "sha256": "5f847634a0d5d4556d9f87cd5bf42bca31b31815002f28ee290157d29ffa9cd0"
+  },
+  {
+    "repository_path": "code/v2/package/centering/analyze_saved.py",
+    "source_archive": "v2",
+    "source_member": "package/centering/analyze_saved.py",
+    "sha256": "67d647205220ed4359065c2897c59769d2647ccff98ab26d8734d917eb920065"
+  },
+  {
+    "repository_path": "code/v2/package/lineage/scorer/original_analyze_scorer_v2.py",
+    "source_archive": "v2",
+    "source_member": "package/lineage/scorer/original_analyze_scorer_v2.py",
+    "sha256": "ba78adf13fb6a7d154e6d647a7beb975976f5a369cf8a8a94abe37d63295bd8d"
+  },
+  {
+    "repository_path": "code/v2/package/provenance/model-and-data-records/execution-source/model_runner.py",
+    "source_archive": "v2",
+    "source_member": "package/provenance/model-and-data-records/execution-source/model_runner.py",
+    "sha256": "f6fbb4add52e1083bebcf1e6beca53f85285abd84d38ee8a39052a19c129bf3c"
+  },
+  {
+    "repository_path": "code/v2/package/provenance/model-and-data-records/execution-source/run_smolvlm.py",
+    "source_archive": "v2",
+    "source_member": "package/provenance/model-and-data-records/execution-source/run_smolvlm.py",
+    "sha256": "6cb342e1b8e466302196c5dcbec6fdc715b250d72c4c398397d1ca181b50cd2c"
+  },
+  {
+    "repository_path": "code/v2/package/replay_review.py",
+    "source_archive": "v2",
+    "source_member": "package/replay_review.py",
+    "sha256": "832302b27b814ee77c365c6e5f49815aa5562d62919d97bbe8f5f215bdbcbac8"
+  },
+  {
+    "repository_path": "code/v2/package/scorer/analyze_stored_scorers_v2.py",
+    "source_archive": "v2",
+    "source_member": "package/scorer/analyze_stored_scorers_v2.py",
+    "sha256": "8ea48e053c999d23ecb53ed7ac5e81147d8ec7b840abf4e1492b66a3639262ba"
+  },
+  {
+    "repository_path": "code/v2/package/simulation/compact_revision_v1.py",
+    "source_archive": "v2",
+    "source_member": "package/simulation/compact_revision_v1.py",
+    "sha256": "7d6a6da60274bbcc10a4923d89ff8bd9f82759eb44335b2f02884bbd31a2b530"
+  },
+  {
+    "repository_path": "code/v2/package/simulation/final-support/finalize_completion_v1.py",
+    "source_archive": "v2",
+    "source_member": "package/simulation/final-support/finalize_completion_v1.py",
+    "sha256": "164b5e2a544fa9b611868a4391e9aedb080646e8f4ddf260e711eb50d694bd38"
+  },
+  {
+    "repository_path": "code/v2/package/simulation/final-support/validate_revision_v1.py",
+    "source_archive": "v2",
+    "source_member": "package/simulation/final-support/validate_revision_v1.py",
+    "sha256": "b89e1c02645ac0a3f2cdcaf22c44f899d77e3c91fd17f01eaa8d65c023bec5c0"
+  },
+  {
+    "repository_path": "code/v2/package/simulation/source/compact_revision_v1.py",
+    "source_archive": "v2",
+    "source_member": "package/simulation/source/compact_revision_v1.py",
+    "sha256": "7d6a6da60274bbcc10a4923d89ff8bd9f82759eb44335b2f02884bbd31a2b530"
+  },
+  {
+    "repository_path": "code/v2/package/simulation/source/frozen_primitives_v1.py",
+    "source_archive": "v2",
+    "source_member": "package/simulation/source/frozen_primitives_v1.py",
+    "sha256": "da82245f216e3fab52462248c82861ac9027a5c536010b05be7699d64159c93c"
+  },
+  {
+    "repository_path": "code/v2/package/simulation/source/multipair_core_v1.py",
+    "source_archive": "v2",
+    "source_member": "package/simulation/source/multipair_core_v1.py",
+    "sha256": "167ad04f2b5867c8c92019ac648d6ad49f6b452c818ba3929ecc904dc12b1443"
+  },
+  {
+    "repository_path": "code/v2/package/simulation/source/revision_core_v1.py",
+    "source_archive": "v2",
+    "source_member": "package/simulation/source/revision_core_v1.py",
+    "sha256": "6a1b3845a2c5ef7c0751b9e360d730b0e02eb549410fd96ae3f5000aae1854be"
+  },
+  {
+    "repository_path": "code/v2/package/simulation/source/run_revision_v1.py",
+    "source_archive": "v2",
+    "source_member": "package/simulation/source/run_revision_v1.py",
+    "sha256": "23b9ef62461fed0e7cc9f3812b4fb034e6844fec98d03aae77c9a15dca3d0857"
+  },
+  {
+    "repository_path": "code/v2/package/simulation/source/summarize_revision_v1.py",
+    "source_archive": "v2",
+    "source_member": "package/simulation/source/summarize_revision_v1.py",
+    "sha256": "6263fee4e29cb069ab9ee6af3012438bc83061a00bef329545f13efd626a5101"
+  },
+  {
+    "repository_path": "code/v2/package/simulation/summarize_revision_v1.py",
+    "source_archive": "v2",
+    "source_member": "package/simulation/summarize_revision_v1.py",
+    "sha256": "6263fee4e29cb069ab9ee6af3012438bc83061a00bef329545f13efd626a5101"
+  },
+  {
+    "repository_path": "code/v2/package/src/empirical_core_v2.py",
+    "source_archive": "v2",
+    "source_member": "package/src/empirical_core_v2.py",
+    "sha256": "5f847634a0d5d4556d9f87cd5bf42bca31b31815002f28ee290157d29ffa9cd0"
+  },
+  {
+    "repository_path": "code/v2/package/src/original_v6_replay.py",
+    "source_archive": "v2",
+    "source_member": "package/src/original_v6_replay.py",
+    "sha256": "1c713fda9ae350e7aac760fbf6b97e446acb0155749924903391cde5ec0fdee3"
+  },
+  {
+    "repository_path": "code/v2/package/src/portable_adapters.py",
+    "source_archive": "v2",
+    "source_member": "package/src/portable_adapters.py",
+    "sha256": "7a9eef2ab5265de2bff5499706031c41b110f7604ace383400a4f2cd7971e0c0"
+  },
+  {
+    "repository_path": "code/v2/package/src/run_empirical_v2.py",
+    "source_archive": "v2",
+    "source_member": "package/src/run_empirical_v2.py",
+    "sha256": "77894103ff08004d164d0dc659e22122df7cdaa6190558dfd7b069882032e5c8"
+  },
+  {
+    "repository_path": "code/v2/package/transfer/run_transfer_sensitivity_v1.py",
+    "source_archive": "v2",
+    "source_member": "package/transfer/run_transfer_sensitivity_v1.py",
+    "sha256": "2fdcc4b1c372f735bc9c7b4d3ddb4a00a71b6d446a32bf2a59de567c79aa1342"
+  },
+  {
+    "repository_path": "code/v7/compute_width_ratios.py",
+    "source_archive": "v7",
+    "source_member": "compute_width_ratios.py",
+    "sha256": "97ec57e25604345eb660d49c99583c5fa443e5406a75d25419df05f9451adf8e"
+  },
+  {
+    "repository_path": "code/v7/n1-audit/audit_n1.py",
+    "source_archive": "v7",
+    "source_member": "n1-audit/audit_n1.py",
+    "sha256": "9d9ecd532a35330ca5972d649169930560935df32c5bd3062e8df71b710720b2"
+  },
+  {
+    "repository_path": "code/v8/extract_table5.py",
+    "source_archive": "v8",
+    "source_member": "extract_table5.py",
+    "sha256": "6a29f623907182ceecf35f66fad8154920a9dfa117ba3c24918de19feafad4fb"
+  },
+  {
+    "repository_path": "code/v8/theory/summarize_centers.py",
+    "source_archive": "v8",
+    "source_member": "theory/summarize_centers.py",
+    "sha256": "ec1d27a4d307a112bf06221c28d459eef7393f8ef333de2768101a71c5583822"
+  }
+]

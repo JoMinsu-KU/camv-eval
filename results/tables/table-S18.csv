@@ -1,0 +1,9 @@
+Transfer case,Fusion,Pool6 FSR / recall (%),Pool3 FSR / recall (%),Pair-specific FSR / recall (%)
+SmolVLM / UR5,Joint,94.697 / 86.667,94.697 / 86.667,81.818 / 66.667
+SmolVLM / UR5,Late,94.697 / 86.667,84.091 / 76.190,82.576 / 70.476
+SmolVLM / RL→RE,Joint,78.000 / 84.124,78.000 / 84.124,53.333 / 63.567
+SmolVLM / RL→RE,Late,84.000 / 86.907,78.000 / 80.266,67.333 / 72.802
+InternVL3.5-4B / UR5,Joint,84.848 / 94.286,83.333 / 94.286,84.848 / 94.286
+InternVL3.5-4B / UR5,Late,73.485 / 90.476,66.667 / 89.524,63.636 / 88.571
+Qwen3-VL-4B / UR5,Joint,42.424 / 81.905,37.121 / 80.000,38.636 / 83.810
+Qwen3-VL-4B / UR5,Late,30.303 / 87.619,23.485 / 82.857,32.576 / 84.762

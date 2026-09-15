@@ -1,0 +1,11 @@
+Cohort,Method,Cells,Duplicate excess,Observations in ties,Pair ties
+RLBench development,Joint,36,46.59,72.65,3.28
+RLBench development,Late,36,34.79,60.23,1.61
+RLBench evaluation,Joint,36,77.25,93.86,3.04
+RLBench evaluation,Late,36,67.99,92.03,1.72
+UR5 evaluation,Joint,18,43.18,64.77,3.40
+UR5 evaluation,Late,18,31.92,58.70,2.10
+REASSEMBLE development,Joint,18,86.22,97.66,1.97
+REASSEMBLE development,Late,18,80.11,95.24,1.81
+REASSEMBLE evaluation,Joint,18,71.50,91.58,2.27
+REASSEMBLE evaluation,Late,18,64.99,85.72,1.70

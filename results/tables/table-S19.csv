@@ -1,0 +1,17 @@
+Case,Outcome,Sample interaction (pp),Group interaction (pp),Task-macro interaction (pp),Max absolute change after exact-pixel exclusion (pp)
+SmolVLM / RE local,FSR,2.000,2.535,1.317,0.000
+SmolVLM / RE local,Recall,-0.253,0.089,-0.405,0.000
+SmolVLM / RL→RE,FSR,-8.000,-7.289,-6.550,0.000
+SmolVLM / RL→RE,Recall,-6.452,-6.554,-6.555,0.000
+InternVL3.5-4B / RL,FSR,2.722,1.082,1.344,0.014
+InternVL3.5-4B / RL,Recall,3.252,2.017,3.648,0.000
+InternVL3.5-4B / UR5,FSR,9.848,9.072,9.070,0.000
+InternVL3.5-4B / UR5,Recall,1.905,2.807,2.137,0.000
+Qwen3-VL-4B / RL,FSR,1.793,1.812,1.346,0.023
+Qwen3-VL-4B / RL,Recall,0.102,-0.153,-0.941,0.000
+Qwen3-VL-4B / UR5,FSR,-6.061,-7.747,-5.244,0.000
+Qwen3-VL-4B / UR5,Recall,4.762,0.936,7.906,0.000
+SmolVLM / RL,FSR,-1.328,-1.065,-1.166,0.200
+SmolVLM / RL,Recall,-1.829,-1.610,-1.201,0.000
+SmolVLM / UR5,FSR,-0.758,0.102,-0.057,0.000
+SmolVLM / UR5,Recall,-3.810,-3.392,-1.923,0.000

@@ -1,0 +1,7 @@
+Condition,FSR point SD (pp),Percentile midpoint SD (pp),Basic midpoint SD (pp),Bootstrap mean − point (pp),Percentile mean width (pp),Oracle conditional mean width (pp)
+A_G40_L000,5.365,3.797,8.389,0.074,25.940,6.457
+A_G40_L050,5.176,3.660,8.247,0.127,25.989,6.472
+A_G40_L090,5.170,3.640,8.172,0.059,24.655,6.461
+A_G100_L000,3.648,2.852,5.140,0.116,16.815,6.521
+A_G100_L050,3.651,2.782,5.228,0.015,16.853,6.506
+A_G100_L090,3.407,2.611,4.908,0.050,16.773,6.513

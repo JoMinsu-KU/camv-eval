@@ -1,0 +1,463 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "case_id": "smolvlm_instruct__rlbenchfail",
+      "metric": "false_success_rate",
+      "field": "estimate",
+      "absolute_difference": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "smolvlm_instruct__rlbenchfail",
+      "metric": "false_success_rate",
+      "field": "conditional_lower",
+      "absolute_difference": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "smolvlm_instruct__rlbenchfail",
+      "metric": "false_success_rate",
+      "field": "conditional_upper",
+      "absolute_difference": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "smolvlm_instruct__rlbenchfail",
+      "metric": "false_success_rate",
+      "field": "refit_lower",
+      "absolute_difference": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "smolvlm_instruct__rlbenchfail",
+      "metric": "false_success_rate",
+      "field": "refit_upper",
+      "absolute_difference": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "smolvlm_instruct__rlbenchfail",
+      "metric": "false_success_rate",
+      "field": "conditional_width",
+      "absolute_difference": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "smolvlm_instruct__rlbenchfail",
+      "metric": "false_success_rate",
+      "field": "refit_width",
+      "absolute_difference": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "smolvlm_instruct__rlbenchfail",
+      "metric": "false_success_rate",
+      "field": "approximate_centered_bootstrap_p",
+      "absolute_difference": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "smolvlm_instruct__rlbenchfail",
+      "metric": "success_recall",
+      "field": "estimate",
+      "absolute_difference": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "smolvlm_instruct__rlbenchfail",
+      "metric": "success_recall",
+      "field": "conditional_lower",
+      "absolute_difference": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "smolvlm_instruct__rlbenchfail",
+      "metric": "success_recall",
+      "field": "conditional_upper",
+      "absolute_difference": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "smolvlm_instruct__rlbenchfail",
+      "metric": "success_recall",
+      "field": "refit_lower",
+      "absolute_difference": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "smolvlm_instruct__rlbenchfail",
+      "metric": "success_recall",
+      "field": "refit_upper",
+      "absolute_difference": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "smolvlm_instruct__rlbenchfail",
+      "metric": "success_recall",
+      "field": "conditional_width",
+      "absolute_difference": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "smolvlm_instruct__rlbenchfail",
+      "metric": "success_recall",
+      "field": "refit_width",
+      "absolute_difference": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "smolvlm_instruct__rlbenchfail",
+      "metric": "success_recall",
+      "field": "approximate_centered_bootstrap_p",
+      "absolute_difference": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "smolvlm_instruct__ur5fail",
+      "metric": "false_success_rate",
+      "field": "estimate",
+      "absolute_difference": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "smolvlm_instruct__ur5fail",
+      "metric": "false_success_rate",
+      "field": "conditional_lower",
+      "absolute_difference": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "smolvlm_instruct__ur5fail",
+      "metric": "false_success_rate",
+      "field": "conditional_upper",
+      "absolute_difference": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "smolvlm_instruct__ur5fail",
+      "metric": "false_success_rate",
+      "field": "refit_lower",
+      "absolute_difference": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "smolvlm_instruct__ur5fail",
+      "metric": "false_success_rate",
+      "field": "refit_upper",
+      "absolute_difference": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "smolvlm_instruct__ur5fail",
+      "metric": "false_success_rate",
+      "field": "conditional_width",
+      "absolute_difference": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "smolvlm_instruct__ur5fail",
+      "metric": "false_success_rate",
+      "field": "refit_width",
+      "absolute_difference": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "smolvlm_instruct__ur5fail",
+      "metric": "false_success_rate",
+      "field": "approximate_centered_bootstrap_p",
+      "absolute_difference": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "smolvlm_instruct__ur5fail",
+      "metric": "success_recall",
+      "field": "estimate",
+      "absolute_difference": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "smolvlm_instruct__ur5fail",
+      "metric": "success_recall",
+      "field": "conditional_lower",
+      "absolute_difference": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "smolvlm_instruct__ur5fail",
+      "metric": "success_recall",
+      "field": "conditional_upper",
+      "absolute_difference": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "smolvlm_instruct__ur5fail",
+      "metric": "success_recall",
+      "field": "refit_lower",
+      "absolute_difference": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "smolvlm_instruct__ur5fail",
+      "metric": "success_recall",
+      "field": "refit_upper",
+      "absolute_difference": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "smolvlm_instruct__ur5fail",
+      "metric": "success_recall",
+      "field": "conditional_width",
+      "absolute_difference": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "smolvlm_instruct__ur5fail",
+      "metric": "success_recall",
+      "field": "refit_width",
+      "absolute_difference": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "smolvlm_instruct__ur5fail",
+      "metric": "success_recall",
+      "field": "approximate_centered_bootstrap_p",
+      "absolute_difference": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "smolvlm_instruct__reassemble_local",
+      "metric": "false_success_rate",
+      "field": "estimate",
+      "absolute_difference": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "smolvlm_instruct__reassemble_local",
+      "metric": "false_success_rate",
+      "field": "conditional_lower",
+      "absolute_difference": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "smolvlm_instruct__reassemble_local",
+      "metric": "false_success_rate",
+      "field": "conditional_upper",
+      "absolute_difference": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "smolvlm_instruct__reassemble_local",
+      "metric": "false_success_rate",
+      "field": "refit_lower",
+      "absolute_difference": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "smolvlm_instruct__reassemble_local",
+      "metric": "false_success_rate",
+      "field": "refit_upper",
+      "absolute_difference": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "smolvlm_instruct__reassemble_local",
+      "metric": "false_success_rate",
+      "field": "conditional_width",
+      "absolute_difference": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "smolvlm_instruct__reassemble_local",
+      "metric": "false_success_rate",
+      "field": "refit_width",
+      "absolute_difference": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "smolvlm_instruct__reassemble_local",
+      "metric": "false_success_rate",
+      "field": "approximate_centered_bootstrap_p",
+      "absolute_difference": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "smolvlm_instruct__reassemble_local",
+      "metric": "success_recall",
+      "field": "estimate",
+      "absolute_difference": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "smolvlm_instruct__reassemble_local",
+      "metric": "success_recall",
+      "field": "conditional_lower",
+      "absolute_difference": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "smolvlm_instruct__reassemble_local",
+      "metric": "success_recall",
+      "field": "conditional_upper",
+      "absolute_difference": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "smolvlm_instruct__reassemble_local",
+      "metric": "success_recall",
+      "field": "refit_lower",
+      "absolute_difference": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "smolvlm_instruct__reassemble_local",
+      "metric": "success_recall",
+      "field": "refit_upper",
+      "absolute_difference": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "smolvlm_instruct__reassemble_local",
+      "metric": "success_recall",
+      "field": "conditional_width",
+      "absolute_difference": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "smolvlm_instruct__reassemble_local",
+      "metric": "success_recall",
+      "field": "refit_width",
+      "absolute_difference": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "smolvlm_instruct__reassemble_local",
+      "metric": "success_recall",
+      "field": "approximate_centered_bootstrap_p",
+      "absolute_difference": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "smolvlm_instruct__reassemble_rl_transfer",
+      "metric": "false_success_rate",
+      "field": "estimate",
+      "absolute_difference": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "smolvlm_instruct__reassemble_rl_transfer",
+      "metric": "false_success_rate",
+      "field": "conditional_lower",
+      "absolute_difference": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "smolvlm_instruct__reassemble_rl_transfer",
+      "metric": "false_success_rate",
+      "field": "conditional_upper",
+      "absolute_difference": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "smolvlm_instruct__reassemble_rl_transfer",
+      "metric": "false_success_rate",
+      "field": "refit_lower",
+      "absolute_difference": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "smolvlm_instruct__reassemble_rl_transfer",
+      "metric": "false_success_rate",
+      "field": "refit_upper",
+      "absolute_difference": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "smolvlm_instruct__reassemble_rl_transfer",
+      "metric": "false_success_rate",
+      "field": "conditional_width",
+      "absolute_difference": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "smolvlm_instruct__reassemble_rl_transfer",
+      "metric": "false_success_rate",
+      "field": "refit_width",
+      "absolute_difference": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "smolvlm_instruct__reassemble_rl_transfer",
+      "metric": "false_success_rate",
+      "field": "approximate_centered_bootstrap_p",
+      "absolute_difference": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "smolvlm_instruct__reassemble_rl_transfer",
+      "metric": "success_recall",
+      "field": "estimate",
+      "absolute_difference": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "smolvlm_instruct__reassemble_rl_transfer",
+      "metric": "success_recall",
+      "field": "conditional_lower",
+      "absolute_difference": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "smolvlm_instruct__reassemble_rl_transfer",
+      "metric": "success_recall",
+      "field": "conditional_upper",
+      "absolute_difference": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "smolvlm_instruct__reassemble_rl_transfer",
+      "metric": "success_recall",
+      "field": "refit_lower",
+      "absolute_difference": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "smolvlm_instruct__reassemble_rl_transfer",
+      "metric": "success_recall",
+      "field": "refit_upper",
+      "absolute_difference": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "smolvlm_instruct__reassemble_rl_transfer",
+      "metric": "success_recall",
+      "field": "conditional_width",
+      "absolute_difference": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "smolvlm_instruct__reassemble_rl_transfer",
+      "metric": "success_recall",
+      "field": "refit_width",
+      "absolute_difference": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "smolvlm_instruct__reassemble_rl_transfer",
+      "metric": "success_recall",
+      "field": "approximate_centered_bootstrap_p",
+      "absolute_difference": 0.0,
+      "passed": true
+    }
+  ],
+  "check_count": 64,
+  "max_absolute_difference": 0.0,
+  "environment": {
+    "python": "3.11.16 | packaged by conda-forge | (main, Sep  2 2026, 23:31:17) [MSC v.1944 64 bit (AMD64)]",
+    "executable": "E:\\SoftwareX\\.conda-envs\\grasp-vlm\\python.exe",
+    "numpy": "2.2.6",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "storage": "E: SATA HDD"
+  },
+  "calculation": "Stored four-policy slice; average seeds; paired interaction; linear 2.5/97.5 percentiles. No new random draws."
+}

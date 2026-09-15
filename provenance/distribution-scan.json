@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "counts": {
+    "files_including_nested": 2993,
+    "extension": 3,
+    "text_files_scanned": 1776,
+    "extension.json": 1317,
+    "extension.cff": 1,
+    "extension.py": 101,
+    "extension.md": 61,
+    "extension.bib": 2,
+    "extension.csv": 267,
+    "extension.npz": 1212,
+    "extension.txt": 5,
+    "extension.zip": 5,
+    "extension.gz": 9,
+    "gzip_text_scanned": 9,
+    "extension.log": 2,
+    "extension.jsonl": 6,
+    "extension.jinja": 1,
+    "extension.sha256": 1
+  },
+  "findings": [],
+  "legacy_absolute_path_files": 39,
+  "legacy_paths": "Retained only as frozen provenance/code strings; wrapper paths are relative.",
+  "limitation": "Selected credential patterns and file types checked recursively; not a universal secret-detection guarantee.",
+  "published": false
+}

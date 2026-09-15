@@ -1,0 +1,9 @@
+Dataset,Context,"Spearman, all","Spearman, success","Kendall tau-b, all",Positive lower-tail intersection/union,Decision disagreement,FSR bare/space (%),Recall bare/space (%)
+RLBenchFail,Joint,0.865,0.752,0.712,2/7,6/48,79.17/91.67,91.67/95.83
+RLBenchFail,Single0,0.857,0.778,0.700,2/4,3/48,87.50/87.50,91.67/95.83
+RLBenchFail,Single1,0.850,0.748,0.694,2/9,5/48,79.17/91.67,91.67/91.67
+RLBenchFail,Derived Late,0.833,0.714,0.645,2/4,6/48,91.67/83.33,91.67/91.67
+REASSEMBLE,Joint,0.887,0.837,0.743,2/6,7/48,83.33/62.50,91.67/91.67
+REASSEMBLE,Single0,0.809,0.879,0.682,3/3,3/48,95.83/100.00,91.67/100.00
+REASSEMBLE,Single1,0.856,0.793,0.708,0/6,7/48,70.83/91.67,91.67/100.00
+REASSEMBLE,Derived Late,0.890,0.870,0.734,2/5,6/48,79.17/79.17,91.67/91.67

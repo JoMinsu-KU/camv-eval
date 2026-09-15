@@ -1,0 +1,12 @@
+Model,Dataset,Split,Median within-label/pair Joint–Late Spearman correlation,Joint duplicate excess (%),Late duplicate excess (%),Group-size range
+internvl35_4b,rlbenchfail,confirmation,0.767,51.917,14.343,1–13
+internvl35_4b,rlbenchfail,dev,0.782,26.540,4.545,1–13
+internvl35_4b,ur5fail,external,0.856,15.097,2.273,1–6
+qwen3vl4b,rlbenchfail,confirmation,0.831,62.255,3.386,1–13
+qwen3vl4b,rlbenchfail,dev,0.791,28.482,0.000,1–13
+qwen3vl4b,ur5fail,external,0.842,18.799,2.273,1–6
+smolvlm_instruct,reassemble,confirmation,0.789,71.505,64.987,1–28
+smolvlm_instruct,reassemble,dev,0.774,86.215,80.115,1–26
+smolvlm_instruct,rlbenchfail,confirmation,0.607,77.247,67.987,1–13
+smolvlm_instruct,rlbenchfail,dev,0.550,46.591,34.787,1–13
+smolvlm_instruct,ur5fail,external,0.631,43.182,31.916,1–6

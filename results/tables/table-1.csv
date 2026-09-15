@@ -1,0 +1,6 @@
+Cohort,Trials (success/failure),Groups (all/success/failure),Failure prevalence (%)
+RLBenchFail development,106 (44/62),40 / 31 / 22,58.491
+RLBenchFail evaluation,415 (164/251),179 / 129 / 95,60.482
+UR5Fail transfer evaluation,79 (35/44),51 / 29 / 31,55.696
+REASSEMBLE development,1716 (1595/121),111 / 111 / 70,7.051
+REASSEMBLE evaluation,577 (527/50),37 / 37 / 21,8.666

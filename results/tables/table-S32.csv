@@ -1,0 +1,7 @@
+Scope,Scheduled records,Available outputs
+Original-data main,"27,141","27,141"
+REASSEMBLE main,"61,911","61,910"
+Main total,"89,052","89,051"
+Original-data subset replay,452,452
+REASSEMBLE subset replay,72,72
+Cost-accounting total,"89,576","89,575"
