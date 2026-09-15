@@ -1,3 +1,7 @@
+# v12 추가 자료 안내
+
+v12-repro-1에는 추가 시뮬레이션 3조건과 저장 자료 재분석을 담았다. 기존 v8 결과와 네 개 검정은 유지했다. 새 수치 ZIP을 릴리스에서 내려받고 `docs/REPRODUCIBILITY-v12.md`의 명령으로 재현할 수 있다. 아래 기존 재현 안내는 v8 원본 결과에 해당한다.
+
 # CAMV-Eval 재현 패키지
 
 Minsu Jo, Namhyun Yoo, Jinhong Yang의 원고 **Calibration and Bootstrap Inference for Multi-View Grasp Verification**, v8에 대응한다.

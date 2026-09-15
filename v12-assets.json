@@ -1,0 +1,19 @@
+{
+  "schema": "camv-github-assets-v1",
+  "version": "v12-repro-1",
+  "repository": "JoMinsu-KU/camv-eval",
+  "assets": [
+    {
+      "id": "v12",
+      "file": "CAMV-Eval_v12_Reproduction.zip",
+      "bytes": 65332002,
+      "sha256": "1ebc0bee6225516423a8e71d50080567a0c2267b6718a0469bb6a589f22c0fd0"
+    },
+    {
+      "id": "checksums",
+      "file": "SHA256SUMS-v12.txt",
+      "bytes": 98,
+      "sha256": "995baae4e41b8c7c35061fde314e7d04a7521913e0bda54ece88d4b709640c33"
+    }
+  ]
+}

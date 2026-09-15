@@ -1,0 +1,13 @@
+condition,metric,test,planned,available,rejections,rejection_pct,wilson_low_pct,wilson_high_pct,interpretation
+RF_H_C,FSR,conditional,1000,1000,89,8.9,7.288824391300744,10.825735156211886,alternative rejection; post hoc simulation
+RF_H_C,FSR,refit,1000,1000,29,2.9,2.026644815669875,4.133835833669417,alternative rejection; post hoc simulation
+RF_H_C,recall,conditional,1000,1000,110,11.0,9.20793726718571,13.09054989468759,alternative rejection; post hoc simulation
+RF_H_C,recall,refit,1000,1000,31,3.1,2.1924003447158573,4.366549601229214,alternative rejection; post hoc simulation
+RF_H_Q125,FSR,conditional,1000,1000,95,9.5,7.834523457904741,11.475443979425224,alternative rejection; post hoc simulation
+RF_H_Q125,FSR,refit,1000,1000,15,1.5,0.9110978804081669,2.4600976926906797,alternative rejection; post hoc simulation
+RF_H_Q125,recall,conditional,1000,1000,221,22.1,19.63781575648541,24.77571736700857,alternative rejection; post hoc simulation
+RF_H_Q125,recall,refit,1000,1000,5,0.5,0.21375355273244595,1.1650955373375114,alternative rejection; post hoc simulation
+NE_H_C,FSR,conditional,1000,1000,532,53.2,50.10103116491519,56.27447758077727,null Type I error for this structured law
+NE_H_C,FSR,refit,1000,1000,6,0.6,0.27526691418763743,1.302816824185209,null Type I error for this structured law
+NE_H_C,recall,conditional,1000,1000,340,34.0,31.130188230514193,36.99226804102357,null Type I error for this structured law
+NE_H_C,recall,refit,1000,1000,4,0.4,0.15565881404084309,1.0239556277262254,null Type I error for this structured law

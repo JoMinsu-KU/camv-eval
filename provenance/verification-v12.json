@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "release": "v12-repro-1",
+  "platform": "Windows",
+  "python": "3.11.16",
+  "numpy": "2.2.6",
+  "scipy": "1.16.2",
+  "storage": "E: SATA HDD",
+  "v8_scientific_source_and_asset_catalog_unchanged": true,
+  "v8_quick_replay": "PASS",
+  "v12_public_archive_and_entry_point_replay": "PASS",
+  "matching_v12_csvs": 10,
+  "new_outer_datasets_verified": 3000,
+  "first_outer_regenerated_per_new_condition": true,
+  "old_outer_datasets_reanalyzed": 16000,
+  "new_model_calls": 0,
+  "full_VLM_rerun": false,
+  "new_full_Monte_Carlo_rerun_during_packaging": false,
+  "independent_external_validation_claimed": false,
+  "publication_scope": "Numerical code and derived records only; manuscript, author photographs and private review documents omitted."
+}

@@ -1,12 +1,16 @@
 # CAMV-Eval
 
-Numerical reproduction package for **Calibration and Bootstrap Inference for Multi-View Grasp Verification**, manuscript v8, by Minsu Jo, Namhyun Yoo, and Jinhong Yang.
+Numerical reproduction package for **Calibration and Bootstrap Inference for Multi-View Grasp Verification**, manuscript v12 (including the preserved v8 numerical base), by Minsu Jo, Namhyun Yoo, and Jinhong Yang.
 
 This package evaluates how calibration choices and uncertainty targets affect comparisons of multi-view grasp verifiers. It provides the original analysis functions, saved numerical inputs, reference results, and reproducible verification commands. A GPU, model weights, source images, and API credentials are not needed for the numerical replay.
 
-[한국어 안내](README.ko.md) · [Reproduction scope](REPRODUCIBILITY.md) · [All 51 manuscript tables](docs/ALL_TABLES.md) · [Data sources](docs/DATA_SOURCES.md)
+[한국어 안내](README.ko.md) · [Reproduction scope](REPRODUCIBILITY.md) · [Original v8 display tables](docs/ALL_TABLES.md) · [Data sources](docs/DATA_SOURCES.md)
 
-## Quick reproduction
+## V12 additions
+
+The [v12-repro-1 release](https://github.com/JoMinsu-KU/camv-eval/releases/tag/v12-repro-1) supplies the new targeted simulations and stored-result diagnostics. Download the numerical ZIP and follow [the v12 replay instructions](docs/REPRODUCIBILITY-v12.md). New result CSVs are in [results/v12](results/v12); original v8 tables and reproduction commands below remain available.
+
+## Original v8 quick reproduction
 
 Use Python 3.11. Create an environment and install the small example's dependency:
 
@@ -24,7 +28,7 @@ Quick mode independently reconstructs all eight Table 5 interactions and their c
 ## Full numerical reproduction
 
 1. Install the full pinned dependencies: `python -m pip install -r requirements.txt`.
-2. Download the three ZIP assets named in [assets.json](assets.json) from the release accompanying this repository into a directory outside the checkout.
+2. Download the three ZIP assets named in [assets.json](assets.json) from the preserved [v8-repro-1 release](https://github.com/JoMinsu-KU/camv-eval/releases/tag/v8-repro-1) into a directory outside the checkout.
 3. Run:
 
 ```sh
@@ -82,4 +86,8 @@ The release is checked on Windows using the existing Python 3.11.16 reproduction
 
 Author-owned software is released under the [MIT License](LICENSE), as confirmed by the author on September 15, 2026. External datasets, metadata, model weights, and third-party notices retain their own terms; see [LICENSE_SCOPE.md](LICENSE_SCOPE.md). Source images, model weights, author photos, and private credentials are not included. Historical archive statements about a local review package are preserved as provenance; the current software licensing statement applies to author-owned code.
 
-Use [CITATION.cff](CITATION.cff) to cite the software. The associated paper is an author-review manuscript targeting IEEE Access; no acceptance, publication, public repository, or DOI is asserted by this local delivery.
+Use [CITATION.cff](CITATION.cff) to cite the software. The associated paper is an author-review manuscript targeting IEEE Access. The software repository and v8-repro-1 release are public; this statement does not assert paper acceptance, journal publication, or a paper DOI.
+
+## Manuscript version mapping
+
+The v8-repro-1 assets reproduce the original v8 numerical results. Manuscript versions v9 and v10 condense and format those results; v11 changes declarations. Manuscript v12 adds operating-point J, stored-result and seed diagnostics, and three targeted simulation conditions, while retaining the original numerical results and four-test family. See [the version map](docs/MANUSCRIPT_VERSION_MAP.md). The separate v12 numerical archive is attached to the v12-repro-1 release; the frozen v8 assets remain the source for original results.

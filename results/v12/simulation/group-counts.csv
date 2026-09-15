@@ -1,0 +1,7 @@
+condition,stage,mean_trials,mean_groups,mean_failures,mean_successes,mean_failure_groups,mean_success_groups
+RF_H_C,development,1717.755,111.0,121.409,1596.346,70.187,111.0
+RF_H_C,evaluation,576.351,37.0,49.814,526.537,21.082,37.0
+RF_H_Q125,development,1717.755,111.0,121.409,1596.346,70.187,111.0
+RF_H_Q125,evaluation,576.351,37.0,49.814,526.537,21.082,37.0
+NE_H_C,development,120.0,40.0,71.857,48.143,35.38,28.58
+NE_H_C,evaluation,360.0,120.0,215.748,144.252,106.284,85.683

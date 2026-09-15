@@ -1,0 +1,7 @@
+condition,metric,available,unavailable
+RF_H_C,FSR,1000,0
+RF_H_C,recall,1000,0
+RF_H_Q125,FSR,1000,0
+RF_H_Q125,recall,1000,0
+NE_H_C,FSR,1000,0
+NE_H_C,recall,1000,0
