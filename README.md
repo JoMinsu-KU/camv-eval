@@ -1,10 +1,14 @@
 # CAMV-Eval
 
-Numerical reproduction package for **Calibration and Bootstrap Inference for Multi-View Grasp Verification**, manuscript v12 (including the preserved v8 numerical base), by Minsu Jo, Namhyun Yoo, and Jinhong Yang.
+Numerical reproduction package for **Calibration and Bootstrap Inference for Multi-View Grasp Verification**, manuscript v13.2 (numerical evidence from v12 and the preserved v8 base), by Minsu Jo, Namhyun Yoo, and Jinhong Yang.
 
 This package evaluates how calibration choices and uncertainty targets affect comparisons of multi-view grasp verifiers. It provides the original analysis functions, saved numerical inputs, reference results, and reproducible verification commands. A GPU, model weights, source images, and API credentials are not needed for the numerical replay.
 
 [한국어 안내](README.ko.md) · [Reproduction scope](REPRODUCIBILITY.md) · [Original v8 display tables](docs/ALL_TABLES.md) · [Data sources](docs/DATA_SOURCES.md)
+
+## Manuscript versions
+
+Versions v13–v13.2 retain the numerical evidence in the v8 and v12 releases. See the [version map](docs/MANUSCRIPT_VERSION_MAP.md) and [editorial history](docs/EDITORIAL_HISTORY.md). No new model inference or simulation release is required for these editorial revisions.
 
 ## V12 additions
 

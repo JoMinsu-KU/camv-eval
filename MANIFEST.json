@@ -253,13 +253,17 @@
       "bytes": 2972,
       "sha256": "aa81e3e2c5418ffef3a817643b7227dab8d0b6770d8385f1c544fbc38cf3bcdc"
     },
+    "docs/EDITORIAL_HISTORY.md": {
+      "bytes": 2602,
+      "sha256": "97a6c599012d448aa2afdf196a54e15de293bcb213a0184be90594f3d041e376"
+    },
     "docs/MAINTAINING.md": {
       "bytes": 1295,
       "sha256": "16c2499b22e09e43665ab7505cd43fc32f0cb132b429b11ebf5cc2ff564d159b"
     },
     "docs/MANUSCRIPT_VERSION_MAP.md": {
-      "bytes": 1482,
-      "sha256": "c0c047bd7d9f39d7c86f2934295f980c715f2760b5f244c6855330884c0aefb9"
+      "bytes": 2302,
+      "sha256": "60df6239e9ba75cca2b4e646a8e644f8863d2fc4fbedcf0a23bebc232965cd68"
     },
     "docs/references.bib": {
       "bytes": 15996,
@@ -350,12 +354,12 @@
       "sha256": "e55020ee8192cbc19829d3e7852b59e6b270d3b5b4f38477c256a2035bd95ea0"
     },
     "README.ko.md": {
-      "bytes": 3125,
-      "sha256": "851aa2aa8cb3213e54df5c01394718d8bceaf4466ae7ce0981e298b9b0d28ba2"
+      "bytes": 3560,
+      "sha256": "6b1e8658e7354fbbbb96e60b024b0f3229a4c0c82a7fd01e323184a652d8acc4"
     },
     "README.md": {
-      "bytes": 8213,
-      "sha256": "16bec7440b62501850e18095e6a058dcb8438f4c72282b33e1d004043fa4ba75"
+      "bytes": 8529,
+      "sha256": "702fd5f3dc36610d488ecb205863a3653972da12ac131c25634add2f8ead5b01"
     },
     "reproduce.py": {
       "bytes": 9449,
