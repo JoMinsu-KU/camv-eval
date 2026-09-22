@@ -14,8 +14,8 @@
       "sha256": "b35fd81885cc57b80d3be9fc24e01b0b16d69b186674aa92259c9eca0f2e0d67"
     },
     "CITATION.cff": {
-      "bytes": 1220,
-      "sha256": "deaa8adfc09e533e86863b417a38b4ae1c0ec8b780816dd2b5bf6e04bf3c04bc"
+      "bytes": 1305,
+      "sha256": "8d758c493c269f47328c2c3330f796d8a02dce2df1503580824061dc48b3d0a0"
     },
     "code/v12/extended_core.py": {
       "bytes": 4002,
@@ -249,21 +249,25 @@
       "bytes": 63069,
       "sha256": "a9f7d0484c0e96a24c08ff5d82bacbc340a7121a08958265a95ef9a60d1ee947"
     },
+    "docs/AUTHORS.md": {
+      "bytes": 1363,
+      "sha256": "073ccd4b217e590df14dcd72e114c406f12f6a84ebb7d6c4aeda6a2ea20ca715"
+    },
     "docs/DATA_SOURCES.md": {
       "bytes": 2972,
       "sha256": "aa81e3e2c5418ffef3a817643b7227dab8d0b6770d8385f1c544fbc38cf3bcdc"
     },
     "docs/EDITORIAL_HISTORY.md": {
-      "bytes": 3342,
-      "sha256": "e28a0bbce5b4c4657729507f1b46e9b2e2d94e2cf284f2351c48325b86fc8844"
+      "bytes": 3642,
+      "sha256": "e2d852b00b2cb3ce6efeb6e114153df0818b213b5924a3508077ffa276ee72d9"
     },
     "docs/MAINTAINING.md": {
       "bytes": 1295,
       "sha256": "16c2499b22e09e43665ab7505cd43fc32f0cb132b429b11ebf5cc2ff564d159b"
     },
     "docs/MANUSCRIPT_VERSION_MAP.md": {
-      "bytes": 2590,
-      "sha256": "95debdd2ffe07a45d419ca15ce55c7c3c0f3b2e14298ac568afbccc59b7d147a"
+      "bytes": 2879,
+      "sha256": "cd4fa960fa43804d535b5e33a8ff1e34f0a8a815f85bfd8f268242e7f0666c16"
     },
     "docs/references.bib": {
       "bytes": 15996,
@@ -354,12 +358,12 @@
       "sha256": "e55020ee8192cbc19829d3e7852b59e6b270d3b5b4f38477c256a2035bd95ea0"
     },
     "README.ko.md": {
-      "bytes": 3665,
-      "sha256": "8de60aaf100ec56004de84074048f7e15c4b9f53fc3535bac3131eccb414dc11"
+      "bytes": 3779,
+      "sha256": "61be2045b9fc247ad2225d5abc6fc8a3a4105979ecbf5dacbd8f75edcb05bb00"
     },
     "README.md": {
-      "bytes": 8194,
-      "sha256": "da73d187e3feb904d7a98c30441a6a6cc76551def206bb484778b268bd5c1e5e"
+      "bytes": 8256,
+      "sha256": "599c6df69c67f3a134cf57a0b0cb4e30fb3e23dce65cf66f6de6818e774fd963"
     },
     "reproduce.py": {
       "bytes": 9449,

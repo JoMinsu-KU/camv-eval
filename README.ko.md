@@ -1,6 +1,6 @@
-# 원고 v13–v13.4.4와 수치 자료 대응
+# 원고 v13–v13.4.5와 수치 자료 대응
 
-원고 v13–v13.4.4는 기존 v8·v12 수치 자료를 유지한 해석·표현·선언 및 편집 수정본이다. 추가 실험이나 모델 추론은 없다. [버전 대응표](docs/MANUSCRIPT_VERSION_MAP.md)와 [편집 이력](docs/EDITORIAL_HISTORY.md)을 참고한다. N02/FSR 개발 분산 비율의 원값은 0.9084945668118725이며 표와 본문에는 0.908로 표시한다.
+원고 v13–v13.4.5는 기존 v8·v12 수치 자료를 유지한 해석·표현·선언 및 편집 수정본이다. 추가 실험이나 모델 추론은 없다. [버전 대응표](docs/MANUSCRIPT_VERSION_MAP.md)와 [편집 이력](docs/EDITORIAL_HISTORY.md)을 참고한다. N02/FSR 개발 분산 비율의 원값은 0.9084945668118725이며 표와 본문에는 0.908로 표시한다.
 
 # v12 추가 자료 안내
 
@@ -8,7 +8,9 @@ v12-repro-1에는 추가 시뮬레이션 3조건과 저장 자료 재분석을 �
 
 # CAMV-Eval 재현 패키지
 
-Minsu Jo, Namhyun Yoo, Beomseok Kim, Jinhong Yang의 원고 **Calibration and Bootstrap Inference for Multi-View Grasp Verification**, v13.4.4를 지원한다. 수치 근거는 공개된 v8·v12 릴리스에 보존되어 있다.
+Minsu Jo, Namhyun Yoo, Beomseok Kim, Hoansuk Choi, Jinhong Yang의 원고 **Calibration and Bootstrap Inference for Multi-View Grasp Verification**, v13.4.5를 지원한다. 수치 근거는 공개된 v8·v12 릴리스에 보존되어 있다.
+
+저자 순서와 실제 연구 기여는 [저자·기여 안내](docs/AUTHORS.md)에 정리했다.
 
 ## 간단 재현
 

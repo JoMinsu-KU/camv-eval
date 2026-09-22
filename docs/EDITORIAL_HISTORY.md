@@ -12,6 +12,7 @@ This document records manuscript editing. The scientific protocol chronology and
 | v13.2 | Defined bias-corrected and accelerated (BCa) at first use in abstract and body; added a practical evaluation summary; aligned Guardian's metadata title with its version-4 metadata URL; moved detailed editing history here while retaining analysis chronology and evidence correspondence. | Same numerical releases |
 | v13.3–v13.4.3 | Applied the official IEEE Access template; aligned the four-author list and confirmed contributions; integrated the manuscript into one main.tex; improved float proximity, individual-bracket citations, and internal navigation. | Same numerical releases |
 | v13.4.4 | Replaced editing-history wording with analysis descriptions, added the Table 3A heading, defined VLMs/FWER, standardized Fig. call-outs, and shortened the repository link. Updated current repository author/version/publication-status descriptions. Kept scientific analysis chronology, post hoc labels, and all frozen numerical files. | Same numerical releases |
+| v13.4.5 | Added Hoansuk Choi after Beomseok Kim and before corresponding author Jinhong Yang. Confirmed CRediT roles are Methodology; Validation; Writing – review & editing. Updated the manuscript byline, email, PDF metadata, biography, and public author information. | Same numerical releases |
 
 ## Display precision
 
