@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "Please cite this software and the associated manuscript when using the reproduction package. The manuscript is an author-review draft; no publication DOI is asserted."
+message: "Please cite this software when using the reproduction package. It provides numerical materials supporting Calibration and Bootstrap Inference for Multi-View Grasp Verification."
 type: software
 title: "CAMV-Eval: Calibration and Bootstrap Inference for Multi-View Grasp Verification"
 version: v12-repro-1
@@ -10,6 +10,9 @@ authors:
   - family-names: Yoo
     given-names: Namhyun
     affiliation: Kyungnam University
+  - family-names: Kim
+    given-names: Beomseok
+    affiliation: Gyeongnam Intelligence Innovation Center
   - family-names: Yang
     given-names: Jinhong
     affiliation: Inje University

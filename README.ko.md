@@ -1,6 +1,6 @@
-# 원고 v13–v13.2와 수치 자료 대응
+# 원고 v13–v13.4.4와 수치 자료 대응
 
-원고 v13–v13.2는 기존 v8·v12 수치 자료를 유지한 해석·표현·선언 및 편집 수정본이다. 추가 실험이나 모델 추론은 없다. [버전 대응표](docs/MANUSCRIPT_VERSION_MAP.md)와 [편집 이력](docs/EDITORIAL_HISTORY.md)을 참고한다. N02/FSR 개발 분산 비율의 원값은 0.9084945668118725이며 표와 본문에는 0.908로 표시한다.
+원고 v13–v13.4.4는 기존 v8·v12 수치 자료를 유지한 해석·표현·선언 및 편집 수정본이다. 추가 실험이나 모델 추론은 없다. [버전 대응표](docs/MANUSCRIPT_VERSION_MAP.md)와 [편집 이력](docs/EDITORIAL_HISTORY.md)을 참고한다. N02/FSR 개발 분산 비율의 원값은 0.9084945668118725이며 표와 본문에는 0.908로 표시한다.
 
 # v12 추가 자료 안내
 
@@ -8,7 +8,7 @@ v12-repro-1에는 추가 시뮬레이션 3조건과 저장 자료 재분석을 �
 
 # CAMV-Eval 재현 패키지
 
-Minsu Jo, Namhyun Yoo, Jinhong Yang의 원고 **Calibration and Bootstrap Inference for Multi-View Grasp Verification**, v8에 대응한다.
+Minsu Jo, Namhyun Yoo, Beomseok Kim, Jinhong Yang의 원고 **Calibration and Bootstrap Inference for Multi-View Grasp Verification**, v13.4.4를 지원한다. 수치 근거는 공개된 v8·v12 릴리스에 보존되어 있다.
 
 ## 간단 재현
 
@@ -28,7 +28,13 @@ python -m pip install -r requirements.txt
 python reproduce.py --mode all --assets-dir ../release-assets --output ../camv-full
 ```
 
-제작된 전체 전달 ZIP을 풀면 `repository/`와 `release-assets/`가 나란히 있다. `repository/`에서 위 명령을 실행하면 다운로드 없이 작동한다. GitHub에서 코드를 받은 이용자는 해당 Release의 ZIP 3개를 별도 폴더에 내려받으면 된다. 실제 공개 후에는 `fetch_assets.py`에 저장소 주소를 지정하여 받을 수도 있다.
+공개된 [v8-repro-1 릴리스](https://github.com/JoMinsu-KU/camv-eval/releases/tag/v8-repro-1)의 ZIP 3개를 저장소 밖 `release-assets/` 폴더에 내려받는다. 다음 명령으로 다운로드와 크기·SHA-256 검증을 함께 수행할 수도 있다.
+
+```powershell
+python fetch_assets.py --repository JoMinsu-KU/camv-eval --tag v8-repro-1 --output ../release-assets
+```
+
+v12 추가 분석은 [v12 재현 안내](docs/REPRODUCIBILITY-v12.md)의 별도 명령을 따른다.
 
 출력 폴더는 **아직 존재하지 않는 저장소 밖 경로**로 지정한다. 계산이 다 끝나면 그 안의 `completion.json`에서 `status: PASS`를 확인한다. 단계별 로그는 `logs/`에 기록된다. 기존 출력 폴더를 덮어쓰지 않는다.
 
@@ -42,4 +48,4 @@ python reproduce.py --mode all --assets-dir ../release-assets --output ../camv-f
 - `provenance/verification.json`: 이번 패키지 검증 결과.
 - [GitHub 업로드 안내](docs/UPLOAD.ko.md): 작은 코드 저장소와 큰 Release 첨부파일의 구분.
 
-저자 소유 코드는 MIT 라이선스다. 외부 데이터·모델에는 원래 조건이 적용된다. 원본 이미지·모델 가중치·저자 사진은 포함하지 않는다. 현재 문서는 공개를 준비한 패키지의 안내이며 실제 GitHub 업로드나 논문 게재를 의미하지 않는다.
+저자 소유 코드는 MIT 라이선스다. 외부 데이터·모델에는 원래 조건이 적용된다. 원본 이미지·모델 가중치·저자 사진은 포함하지 않는다. 이 문서는 공개된 저장소와 v8·v12 수치 재현 릴리스의 사용 안내다.

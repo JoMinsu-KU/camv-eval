@@ -14,8 +14,8 @@
       "sha256": "b35fd81885cc57b80d3be9fc24e01b0b16d69b186674aa92259c9eca0f2e0d67"
     },
     "CITATION.cff": {
-      "bytes": 1127,
-      "sha256": "a121de0f5992ea2efafc13845a5cc3509391a1d3c302007bfff27f33235d4ec6"
+      "bytes": 1220,
+      "sha256": "deaa8adfc09e533e86863b417a38b4ae1c0ec8b780816dd2b5bf6e04bf3c04bc"
     },
     "code/v12/extended_core.py": {
       "bytes": 4002,
@@ -254,16 +254,16 @@
       "sha256": "aa81e3e2c5418ffef3a817643b7227dab8d0b6770d8385f1c544fbc38cf3bcdc"
     },
     "docs/EDITORIAL_HISTORY.md": {
-      "bytes": 2602,
-      "sha256": "97a6c599012d448aa2afdf196a54e15de293bcb213a0184be90594f3d041e376"
+      "bytes": 3342,
+      "sha256": "e28a0bbce5b4c4657729507f1b46e9b2e2d94e2cf284f2351c48325b86fc8844"
     },
     "docs/MAINTAINING.md": {
       "bytes": 1295,
       "sha256": "16c2499b22e09e43665ab7505cd43fc32f0cb132b429b11ebf5cc2ff564d159b"
     },
     "docs/MANUSCRIPT_VERSION_MAP.md": {
-      "bytes": 2302,
-      "sha256": "60df6239e9ba75cca2b4e646a8e644f8863d2fc4fbedcf0a23bebc232965cd68"
+      "bytes": 2590,
+      "sha256": "95debdd2ffe07a45d419ca15ce55c7c3c0f3b2e14298ac568afbccc59b7d147a"
     },
     "docs/references.bib": {
       "bytes": 15996,
@@ -354,12 +354,12 @@
       "sha256": "e55020ee8192cbc19829d3e7852b59e6b270d3b5b4f38477c256a2035bd95ea0"
     },
     "README.ko.md": {
-      "bytes": 3560,
-      "sha256": "6b1e8658e7354fbbbb96e60b024b0f3229a4c0c82a7fd01e323184a652d8acc4"
+      "bytes": 3665,
+      "sha256": "8de60aaf100ec56004de84074048f7e15c4b9f53fc3535bac3131eccb414dc11"
     },
     "README.md": {
-      "bytes": 8529,
-      "sha256": "702fd5f3dc36610d488ecb205863a3653972da12ac131c25634add2f8ead5b01"
+      "bytes": 8194,
+      "sha256": "da73d187e3feb904d7a98c30441a6a6cc76551def206bb484778b268bd5c1e5e"
     },
     "reproduce.py": {
       "bytes": 9449,

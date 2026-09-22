@@ -1,6 +1,6 @@
 # CAMV-Eval
 
-Numerical reproduction package for **Calibration and Bootstrap Inference for Multi-View Grasp Verification**, manuscript v13.2 (numerical evidence from v12 and the preserved v8 base), by Minsu Jo, Namhyun Yoo, and Jinhong Yang.
+Numerical reproduction package for **Calibration and Bootstrap Inference for Multi-View Grasp Verification**, manuscript v13.4.4 (numerical evidence from v12 and the preserved v8 base), by Minsu Jo, Namhyun Yoo, Beomseok Kim, and Jinhong Yang.
 
 This package evaluates how calibration choices and uncertainty targets affect comparisons of multi-view grasp verifiers. It provides the original analysis functions, saved numerical inputs, reference results, and reproducible verification commands. A GPU, model weights, source images, and API credentials are not needed for the numerical replay.
 
@@ -8,7 +8,7 @@ This package evaluates how calibration choices and uncertainty targets affect co
 
 ## Manuscript versions
 
-Versions v13–v13.2 retain the numerical evidence in the v8 and v12 releases. See the [version map](docs/MANUSCRIPT_VERSION_MAP.md) and [editorial history](docs/EDITORIAL_HISTORY.md). No new model inference or simulation release is required for these editorial revisions.
+Versions v13–v13.4.4 retain the numerical evidence in the v8 and v12 releases. See the [version map](docs/MANUSCRIPT_VERSION_MAP.md) and [editorial history](docs/EDITORIAL_HISTORY.md). No new model inference or simulation release is required for these editorial revisions.
 
 ## V12 additions
 
@@ -39,15 +39,13 @@ Quick mode independently reconstructs all eight Table 5 interactions and their c
 python reproduce.py --mode all --assets-dir ../release-assets --output ../camv-full
 ```
 
-The delivery archive supplied to the authors already contains `repository/` and `release-assets/` side by side. From `repository/`, the command above works without a download.
-
-After a GitHub release is actually published, the optional downloader accepts its real owner/repository:
+The optional downloader retrieves and verifies the three assets from the public v8 release:
 
 ```sh
-python fetch_assets.py --repository OWNER/REPOSITORY --tag v8-repro-1 --output ../release-assets
+python fetch_assets.py --repository JoMinsu-KU/camv-eval --tag v8-repro-1 --output ../release-assets
 ```
 
-Replace `OWNER/REPOSITORY` with the actual repository. No public URL or DOI is assumed in this prepared package. The downloader verifies exact sizes and SHA-256 hashes; the replay itself performs no network access.
+The downloader verifies the exact sizes and SHA-256 hashes recorded in `assets.json`; the numerical replay itself performs no network access.
 
 Full mode verifies and extracts the frozen assets, then runs the original empirical analyses, subsequent scorer/transfer analyses, simulation summaries and deterministic probes, the translation-equivariance audit, width diagnostics, and the v8 table checks. It stops on a failed stage. See `completion.json` and `logs/` in the output directory for the actual checks and execution scope.
 
@@ -90,7 +88,7 @@ The release is checked on Windows using the existing Python 3.11.16 reproduction
 
 Author-owned software is released under the [MIT License](LICENSE), as confirmed by the author on September 15, 2026. External datasets, metadata, model weights, and third-party notices retain their own terms; see [LICENSE_SCOPE.md](LICENSE_SCOPE.md). Source images, model weights, author photos, and private credentials are not included. Historical archive statements about a local review package are preserved as provenance; the current software licensing statement applies to author-owned code.
 
-Use [CITATION.cff](CITATION.cff) to cite the software. The associated paper is an author-review manuscript targeting IEEE Access. The software repository and v8-repro-1 release are public; this statement does not assert paper acceptance, journal publication, or a paper DOI.
+Use [CITATION.cff](CITATION.cff) to cite the software. The repository provides the numerical materials supporting the associated manuscript, **Calibration and Bootstrap Inference for Multi-View Grasp Verification**. The v8-repro-1 and v12-repro-1 numerical releases are public.
 
 ## Manuscript version mapping
 
