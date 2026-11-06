@@ -1,0 +1,9 @@
+condition,cohort,scorer,metric,planned,available,target,mcse,mcse_pp,target_pp,reference_precision_met,validity
+EP-RL-bare,RL,bare,FSR,65536,65536,0.01005308089717634,0.0001268255573065134,0.01268255573065134,1.005308089717634,True,V requires both class denominators and all calibration thresholds finite
+EP-RL-bare,RL,bare,recall,65536,65536,-0.0043207804361977435,9.236368198593688e-05,0.009236368198593688,-0.43207804361977437,True,V requires both class denominators and all calibration thresholds finite
+EP-RL-space,RL,space,FSR,65536,65536,-0.051167847007835325,0.00018205354069601246,0.018205354069601245,-5.1167847007835325,True,V requires both class denominators and all calibration thresholds finite
+EP-RL-space,RL,space,recall,65536,65536,-0.025512926506273736,0.00015740800137526052,0.015740800137526052,-2.5512926506273734,True,V requires both class denominators and all calibration thresholds finite
+EP-RE-bare,RE,bare,FSR,65536,65536,0.006994074041192715,5.394258971819727e-05,0.005394258971819727,0.6994074041192715,True,V requires both class denominators and all calibration thresholds finite
+EP-RE-bare,RE,bare,recall,65536,65536,0.001490762963688638,3.110823423319246e-05,0.003110823423319246,0.1490762963688638,True,V requires both class denominators and all calibration thresholds finite
+EP-RE-space,RE,space,FSR,65536,65536,0.025656161557890824,7.063945231872146e-05,0.007063945231872146,2.5656161557890824,True,V requires both class denominators and all calibration thresholds finite
+EP-RE-space,RE,space,recall,65536,65536,0.0016034962366122353,4.147788286773289e-05,0.004147788286773289,0.16034962366122352,True,V requires both class denominators and all calibration thresholds finite

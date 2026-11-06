@@ -1,3 +1,19 @@
+# CAMV-Eval v14 추가 재현 자료
+
+최신 원고 **Threshold Calibration and Bootstrap Inference for Multi-View Grasp Verification**, v14.3에 대응한다. 저자 다섯 명과 기여 정보는 유지한다. 기존 v8·v12 릴리스를 보존하고 v14의 새 수치 자료를 별도 릴리스로 제공한다.
+
+```text
+gh release download v14-repro-1 --repo JoMinsu-KU/camv-eval --pattern CAMV-Eval_v14_Reproduction.zip --dir ../v14-assets
+python -m pip install -r requirements-v14.txt
+python reproduce_v14.py --asset ../v14-assets/CAMV-Eval_v14_Reproduction.zip --output ../v14-replay --fresh-first
+```
+
+출력 경로는 아직 없는 저장소 밖 폴더로 지정한다. 새 E1의 저장 점수·배열 재계산과 일부 결정적 재생성을 수행하며, GPU·원본 이미지·모델 가중치는 필요하지 않다. 독립 outer 데이터셋 2,000개가 bare/space를 공유하여 scorer별 저장 기록은 4,000개다. A1–A7 표는 별도 감사 결과 snapshot이며 원시 입력 전체의 재실행으로 표현하지 않는다. [v14 재현 안내](docs/REPRODUCIBILITY-v14.md)와 [새 결과 CSV](results/v14)를 참고한다.
+
+아래 문서는 이전 v8·v12 자료와 v13 편집본의 이력을 설명한다. 아래의 Table 번호와 원고 제목은 해당 이전 버전에 속한다.
+
+---
+
 # 원고 v13–v13.4.5와 수치 자료 대응
 
 원고 v13–v13.4.5는 기존 v8·v12 수치 자료를 유지한 해석·표현·선언 및 편집 수정본이다. 추가 실험이나 모델 추론은 없다. [버전 대응표](docs/MANUSCRIPT_VERSION_MAP.md)와 [편집 이력](docs/EDITORIAL_HISTORY.md)을 참고한다. N02/FSR 개발 분산 비율의 원값은 0.9084945668118725이며 표와 본문에는 0.908로 표시한다.

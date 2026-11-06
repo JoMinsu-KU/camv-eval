@@ -1,0 +1,9 @@
+condition,stage,groups,mean_trials,min_trials,max_trials,mean_failures,mean_successes
+EP-RL-bare,development,40,106.185,66,166,62.39,43.795
+EP-RL-bare,evaluation,179,475.4,367,587,278.312,197.088
+EP-RL-space,development,40,106.185,66,166,62.39,43.795
+EP-RL-space,evaluation,179,475.4,367,587,278.312,197.088
+EP-RE-bare,development,111,1713.891,1502,1899,121.26,1592.631
+EP-RE-bare,evaluation,37,571.335,460,706,40.359,530.976
+EP-RE-space,development,111,1713.891,1502,1899,121.26,1592.631
+EP-RE-space,evaluation,37,571.335,460,706,40.359,530.976

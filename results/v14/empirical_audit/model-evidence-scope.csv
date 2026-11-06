@@ -1,0 +1,5 @@
+model,case,seeds,scorer,cohort,source_pair_count,target_pair_count,design_status,frontier_model_evidence,new_model_calls
+internvl35_4b,internvl35_4b__rlbenchfail,[17],bare AB only; no leading-space alternative in portable historical records,same original trial IDs and labels,6,6,historical retrospective; not the prospective family,False,0
+internvl35_4b,internvl35_4b__ur5fail,[17],bare AB only; no leading-space alternative in portable historical records,same original trial IDs and labels,6,3,historical retrospective; not the prospective family,False,0
+qwen3vl4b,qwen3vl4b__rlbenchfail,[17],bare AB only; no leading-space alternative in portable historical records,same original trial IDs and labels,6,6,historical retrospective; not the prospective family,False,0
+qwen3vl4b,qwen3vl4b__ur5fail,[17],bare AB only; no leading-space alternative in portable historical records,same original trial IDs and labels,6,3,historical retrospective; not the prospective family,False,0

@@ -1,6 +1,6 @@
 # Authors and contributions
 
-Manuscript: **Calibration and Bootstrap Inference for Multi-View Grasp Verification** (v13.4.5).
+Manuscript: **Threshold Calibration and Bootstrap Inference for Multi-View Grasp Verification** (v14.3).
 
 | Order | Author | Affiliation | CRediT contributions |
 |---|---|---|---|
@@ -14,7 +14,5 @@ Corresponding author: **Jinhong Yang** (jinhong@inje.ac.kr).
 Hoansuk Choi's institutional email: chs2024@kyungnam.ac.kr.
 
 The author order and contributions were confirmed by the submitting researcher.
-The software citation lists the five contributors in this order. This author
-metadata update preserves the original v8/v12 numerical releases, code snapshots,
-and results; it does not introduce new experiments or assert a journal publication.
+The software citation lists the five contributors in this order. The v14.3 author list remains the same five-author list as the submitted article. The v14 numerical additions have their own release; existing v8/v12 materials are preserved. No journal publication is asserted.
 Author photographs and the manuscript submission files are distributed separately.

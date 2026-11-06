@@ -1,0 +1,16 @@
+{
+  "schema": "camv-release-assets-v1",
+  "tag": "v14-repro-1",
+  "assets": [
+    {
+      "file": "CAMV-Eval_v14_Reproduction.zip",
+      "bytes": 124843964,
+      "sha256": "8dab60a1c52263cd7c4c27886f0639b47821e283bc6f1323a407c1a93f23a99a"
+    },
+    {
+      "file": "SHA256SUMS-v14.txt",
+      "bytes": 97,
+      "sha256": "784d4aa919aa834d1b3bb5e9bfd82a4805104610573a627b414740152f9e5c7c"
+    }
+  ]
+}

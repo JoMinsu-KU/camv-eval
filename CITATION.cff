@@ -1,8 +1,8 @@
 cff-version: 1.2.0
-message: "Please cite this software when using the reproduction package. It provides numerical materials supporting Calibration and Bootstrap Inference for Multi-View Grasp Verification."
+message: "Please cite this software when using the reproduction package. It provides numerical materials supporting Threshold Calibration and Bootstrap Inference for Multi-View Grasp Verification."
 type: software
-title: "CAMV-Eval: Calibration and Bootstrap Inference for Multi-View Grasp Verification"
-version: v12-repro-1
+title: "CAMV-Eval: Threshold Calibration and Bootstrap Inference for Multi-View Grasp Verification"
+version: v14-repro-1
 authors:
   - family-names: Jo
     given-names: Minsu
@@ -20,7 +20,7 @@ authors:
     given-names: Jinhong
     affiliation: Inje University
 license: MIT
-abstract: "Numerical reproduction of grouped calibration and bootstrap comparisons for multi-view grasp verifiers. Includes stored-score recalibration, saved-array simulation summaries, bounded deterministic regeneration, v8 table audits, and v12 targeted simulation and saved-result diagnostics. See LICENSE_SCOPE.md for the distinction between software and external data rights."
+abstract: "Numerical reproduction of grouped calibration and bootstrap comparisons for multi-view grasp verifiers. Includes stored-score recalibration, saved-array simulation summaries, bounded deterministic regeneration, v8 table audits, v12 targeted simulation and saved-result diagnostics, and the v14 empirical-group-population experiment and audit snapshots. See LICENSE_SCOPE.md for the distinction between software and external data rights."
 keywords:
   - bootstrap
   - calibration

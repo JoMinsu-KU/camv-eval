@@ -13,6 +13,8 @@ This document records manuscript editing. The scientific protocol chronology and
 | v13.3–v13.4.3 | Applied the official IEEE Access template; aligned the four-author list and confirmed contributions; integrated the manuscript into one main.tex; improved float proximity, individual-bracket citations, and internal navigation. | Same numerical releases |
 | v13.4.4 | Replaced editing-history wording with analysis descriptions, added the Table 3A heading, defined VLMs/FWER, standardized Fig. call-outs, and shortened the repository link. Updated current repository author/version/publication-status descriptions. Kept scientific analysis chronology, post hoc labels, and all frozen numerical files. | Same numerical releases |
 | v13.4.5 | Added Hoansuk Choi after Beomseok Kim and before corresponding author Jinhong Yang. Confirmed CRediT roles are Methodology; Validation; Writing – review & editing. Updated the manuscript byline, email, PDF metadata, biography, and public author information. | Same numerical releases |
+| v14 | Separate numerical additions and supporting audits; original four-test family retained. | v8, v12 and new v14 release |
+| v14.1–v14.3 | Condensed layout and improved Figures 1–2. | Same v14 numerical evidence |
 
 ## Display precision
 
@@ -22,4 +24,4 @@ In `results/v12/saved-analysis/development-evaluation-decomposition.csv`, N02/FS
 
 On 2026-09-17, the arXiv v4 [metadata page](https://arxiv.org/abs/2512.01946v4) used the title with *Planning and Execution Errors*, while the [HTML](https://arxiv.org/html/2512.01946v4) and [PDF](https://arxiv.org/pdf/2512.01946v4) headings used *Manipulation Failures*. The manuscript follows the metadata title and links that same versioned metadata page. This is a bibliographic alignment, not a change to the cited scientific evidence.
 
-The software citation includes Beomseok Kim on the basis of the author-confirmed Software contribution; the numerical release version remains v12-repro-1. Archived files retain their original provenance.
+The software citation includes Beomseok Kim on the basis of the author-confirmed Software contribution. At manuscript v13.4.5, the numerical release version was v12-repro-1; v14 adds the separate archive described in the version map. Archived files retain their original provenance.

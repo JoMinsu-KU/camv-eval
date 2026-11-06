@@ -1,3 +1,9 @@
+# Reproduction scope by numerical release
+
+The original sections below document the v8 replay. Use [the v12 guide](docs/REPRODUCIBILITY-v12.md) for the separate v12 asset and [the v14 guide](docs/REPRODUCIBILITY-v14.md) for the new empirical-group-population experiment. They are distinct scopes, not a single claim to regenerate all raw inference or every simulation.
+
+---
+
 # Reproduction contract
 
 ## Inputs, targets, and expected outputs

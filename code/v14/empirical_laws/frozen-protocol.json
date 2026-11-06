@@ -1,0 +1,55 @@
+{
+  "protocol_id": "E1-empirical-group-populations-20261104-v1",
+  "created_utc": "2026-11-04T02:17:07.367379+00:00",
+  "engine_arithmetic": "Exact signed integer count ratio divided by P times class denominator",
+  "M": 1000,
+  "B": 999,
+  "groups": {
+    "RL": [
+      40,
+      179
+    ],
+    "RE": [
+      111,
+      37
+    ]
+  },
+  "conditions": [
+    "EP-RL-bare",
+    "EP-RL-space",
+    "EP-RE-bare",
+    "EP-RE-space"
+  ],
+  "reference_initial_N": 65536,
+  "reference_cap_N": 262144,
+  "reference_mcse_max_rate": 0.0005,
+  "nominal_confidence": 0.95,
+  "reference_coverage_sensitivity_mcse": 3,
+  "seed_root": [
+    20261104,
+    48245,
+    1001
+  ],
+  "max_workers": 2,
+  "environment": {
+    "python": "E:\\SoftwareX\\.conda-envs\\grasp-vlm-repro\\python.exe",
+    "python_version": "3.11.16 | packaged by conda-forge | (main, Sep  2 2026, 23:31:17) [MSC v.1944 64 bit (AMD64)]",
+    "numpy": "2.2.6",
+    "scipy": "1.16.2",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "storage": "E: SATA HDD",
+    "blas_omp_threads": 1
+  },
+  "pinned_files": {
+    "E:\\SoftwareX\\camv-eval-study-v1\\amendments\\score-ties-revision-20260915-v1\\scorer\\inputs\\collections.json.gz": "3466ca5ca8070ef5cbbe838aa35e002c50c7d88d926588b90a2590966eb9fdb9",
+    "E:\\SoftwareX\\camv-eval-study-v1\\amendments\\actual-review-20261104-v1\\simulation\\input-manifest.json": "32f7ee3eba8f6e416c4ff57254d06ae4e183aff82a5485fb57c73622ff6a9081",
+    "E:\\SoftwareX\\camv-eval-study-v1\\amendments\\actual-review-20261104-v1\\simulation\\empirical_law_engine.py": "dc6c538ed3315a758b58714fd1f0225a6ef6b9c3b80182851847d334566c51e2",
+    "E:\\SoftwareX\\camv-eval-study-v1\\amendments\\actual-review-20261104-v1\\simulation\\run_empirical_laws.py": "f2f7628b29a2cebea4332854b090abdf4438e3a7317ec04e2dc0bae248bcdd1f",
+    "E:\\SoftwareX\\camv-eval-study-v1\\amendments\\actual-review-20261104-v1\\simulation\\frozen-core\\numerics.py": "e573abf95c95eaf4d31775c8c964bc60000a68dff0be2910052831a10b45c72d",
+    "E:\\SoftwareX\\camv-eval-study-v1\\amendments\\actual-review-20261104-v1\\simulation\\frozen-core\\review_core.py": "0c659920782baa45fcc2c8188ec80ccf28b509c48628586c44234e4f02a00591",
+    "E:\\SoftwareX\\camv-eval-study-v1\\amendments\\actual-review-20261104-v1\\simulation\\PROTOCOL.md": "93a284ab0d07ed90d8a39470a388f05663865d0cc7d9ccd9fe51d293014f9618",
+    "E:\\SoftwareX\\camv-eval-study-v1\\amendments\\actual-review-20261104-v1\\simulation\\validation.json": "39d730fe7ffcb3a007e5d014029ee2af57542976669279f34a5f9456778c7f49",
+    "E:\\SoftwareX\\camv-eval-study-v1\\amendments\\actual-review-20261104-v1\\simulation\\pilot-runtime.json": "496e9ba9f12e951ab673f0fe748c9c2efc10591810dc0334e35fc0cad27ca3c0",
+    "E:\\SoftwareX\\camv-eval-study-v1\\amendments\\actual-review-20261104-v1\\simulation\\freeze_protocol.py": "20b359f3c3370e2e3fc259faf6068d9bf4c35d297ca46df50bc3824b535d83b0"
+  }
+}

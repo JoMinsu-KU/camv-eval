@@ -1,0 +1,9 @@
+native_mapping,scorer,method,seed,auroc,lower,upper,bootstrap_planned,bootstrap_available,interpretation
+0/1/2,bare,joint,29,0.37709030100334445,0.2678360314714121,0.46751156655844156,2000,2000,"conditional group-bootstrap descriptive pointwise interval, native strata also differ in tasks"
+0/1/2,bare,late,29,0.3461538461538461,0.20870949074074074,0.4524924516908211,2000,2000,"conditional group-bootstrap descriptive pointwise interval, native strata also differ in tasks"
+left/right/wrist,bare,joint,29,0.4012345679012346,0.24852290851094674,0.5690287490287491,2000,2000,"conditional group-bootstrap descriptive pointwise interval, native strata also differ in tasks"
+left/right/wrist,bare,late,29,0.449074074074074,0.30126763668430334,0.5903112816764131,2000,2000,"conditional group-bootstrap descriptive pointwise interval, native strata also differ in tasks"
+0/1/2,space,joint,29,0.3561872909698997,0.23929306290417401,0.4619417388167386,2000,2000,"conditional group-bootstrap descriptive pointwise interval, native strata also differ in tasks"
+0/1/2,space,late,29,0.38600891861761427,0.2583324314574315,0.5057234908493489,2000,2000,"conditional group-bootstrap descriptive pointwise interval, native strata also differ in tasks"
+left/right/wrist,space,joint,29,0.4251543209876543,0.26220906432748536,0.5980419389978213,2000,2000,"conditional group-bootstrap descriptive pointwise interval, native strata also differ in tasks"
+left/right/wrist,space,late,29,0.4398148148148148,0.27380772005772,0.5998710317460316,2000,2000,"conditional group-bootstrap descriptive pointwise interval, native strata also differ in tasks"

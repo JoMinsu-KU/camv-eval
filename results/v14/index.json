@@ -1,0 +1,167 @@
+{
+  "policy": "Byte-identical CSV exports. E1 has an array replay; A1\u2013A7 are documented audit snapshots.",
+  "files": [
+    {
+      "repository_path": "results/v14/empirical_laws/coverage.csv",
+      "asset_path": "empirical_laws/coverage.csv",
+      "sha256": "8ba06a5c9f8276163cae7fea9693c751e43899f0e8113ab0d8c8ac44be9a0646",
+      "bytes": 16285
+    },
+    {
+      "repository_path": "results/v14/empirical_laws/point-decomposition.csv",
+      "asset_path": "empirical_laws/point-decomposition.csv",
+      "sha256": "6aba2130d249a6fcb6fb28504eed3ebc6df8a82b6c466c93dc4d5205010dba72",
+      "bytes": 2166
+    },
+    {
+      "repository_path": "results/v14/empirical_laws/centering-diagnostics.csv",
+      "asset_path": "empirical_laws/centering-diagnostics.csv",
+      "sha256": "a6596c6c8b383726c9722a6b327e204d9c63110675d937a88daefe7d66e8163e",
+      "bytes": 4540
+    },
+    {
+      "repository_path": "results/v14/empirical_laws/bca-availability.csv",
+      "asset_path": "empirical_laws/bca-availability.csv",
+      "sha256": "99fc3b4cea6927a90afeebbbc46f303db6c3675ff35f48d30c34b9b5d6139288",
+      "bytes": 2146
+    },
+    {
+      "repository_path": "results/v14/empirical_laws/reference-targets.csv",
+      "asset_path": "empirical_laws/reference-targets.csv",
+      "sha256": "b8c85ba3fa7c86727044b92566f163128354b722bf4b6ebaa8495376d720fef7",
+      "bytes": 1718
+    },
+    {
+      "repository_path": "results/v14/empirical_laws/sample-counts.csv",
+      "asset_path": "empirical_laws/sample-counts.csv",
+      "sha256": "cc6be328b9db34a95b1c7a5627dc0d0ee35e103f9211f02c41eb2952d440a4a4",
+      "bytes": 555
+    },
+    {
+      "repository_path": "results/v14/empirical_audit/cohort-native-camera-counts.csv",
+      "asset_path": "audit_snapshots/empirical_audit/cohort-native-camera-counts.csv",
+      "sha256": "87015d252d7c0e18696669781f1715e87fe594596f0f3fb7903f3c933715e8f3",
+      "bytes": 2003
+    },
+    {
+      "repository_path": "results/v14/empirical_audit/candidate-mass-summary.csv",
+      "asset_path": "audit_snapshots/empirical_audit/candidate-mass-summary.csv",
+      "sha256": "fcc005c9292c3bb7cf84c483a6f6a05df74b541a7ea0a191740c7b61a7b9946e",
+      "bytes": 55232
+    },
+    {
+      "repository_path": "results/v14/empirical_audit/generation-diagnostic-summary.csv",
+      "asset_path": "audit_snapshots/empirical_audit/generation-diagnostic-summary.csv",
+      "sha256": "e2633ef2692fc8bcddd578e8fda7cfe4667015a6b74a3d05b79cdc2e8a9995c8",
+      "bytes": 361
+    },
+    {
+      "repository_path": "results/v14/empirical_audit/image-order-fixed-versus-recalibrated.csv",
+      "asset_path": "audit_snapshots/empirical_audit/image-order-fixed-versus-recalibrated.csv",
+      "sha256": "0c074614a2a9425108fdb4495bcf180d654fad0a87402da8281962c56aa136fb",
+      "bytes": 38832
+    },
+    {
+      "repository_path": "results/v14/empirical_audit/discrimination-operating-points-summary.csv",
+      "asset_path": "audit_snapshots/empirical_audit/discrimination-operating-points-summary.csv",
+      "sha256": "0205d7d4c1e71f71fdf66b9b4f7462e472d32a6b08254c384fb7df531879f056",
+      "bytes": 24792
+    },
+    {
+      "repository_path": "results/v14/empirical_audit/model-evidence-scope.csv",
+      "asset_path": "audit_snapshots/empirical_audit/model-evidence-scope.csv",
+      "sha256": "fd8bb0a385acb49de424a73e59b80b9d0393df8301e4f55990c94e31e9c61f73",
+      "bytes": 982
+    },
+    {
+      "repository_path": "results/v14/empirical_audit/ur5-native-strata-auroc-bootstrap.csv",
+      "asset_path": "audit_snapshots/empirical_audit/ur5-native-strata-auroc-bootstrap.csv",
+      "sha256": "4d48bb45d70c3726c3dc3d73e3dbc1ab67531fef6b7dce4bd581879f90037a1e",
+      "bytes": 1635
+    },
+    {
+      "repository_path": "results/v14/empirical_audit/original-Holm4-reaggregation.csv",
+      "asset_path": "audit_snapshots/empirical_audit/original-Holm4-reaggregation.csv",
+      "sha256": "f21d6195ffeffe016812cab4dc0335c412165e36bcf3284a2db3f5d090be4ff0",
+      "bytes": 853
+    },
+    {
+      "repository_path": "results/v14/statistical_audit/A4_precision.csv",
+      "asset_path": "audit_snapshots/statistical_audit/A4_precision.csv",
+      "sha256": "9e50986cace709f2571e46d83c46d67a744263d249c1076dc7c209a9556fbfa6",
+      "bytes": 5392
+    },
+    {
+      "repository_path": "results/v14/statistical_audit/A4_effect_membership.csv",
+      "asset_path": "audit_snapshots/statistical_audit/A4_effect_membership.csv",
+      "sha256": "dd7a2443750ce3a281d09a63b5371ebd9c8cccd007f7bba20a7843ec2976f705",
+      "bytes": 42568
+    },
+    {
+      "repository_path": "results/v14/statistical_audit/A5_center_decomposition.csv",
+      "asset_path": "audit_snapshots/statistical_audit/A5_center_decomposition.csv",
+      "sha256": "b30e66ed2e8ebb4e1dbbb1e33ea485b7d9f298cc13c01ac36ef768424343ec4b",
+      "bytes": 43374
+    },
+    {
+      "repository_path": "results/v14/statistical_audit/A5_bca_diagnostics.csv",
+      "asset_path": "audit_snapshots/statistical_audit/A5_bca_diagnostics.csv",
+      "sha256": "c32dd3c37b9757e94d330f98569508533a7c17c28c7a18485e176af70b8a0659",
+      "bytes": 7007
+    },
+    {
+      "repository_path": "results/v14/statistical_audit/A5_finite_B_paired.csv",
+      "asset_path": "audit_snapshots/statistical_audit/A5_finite_B_paired.csv",
+      "sha256": "055efff2ff782a72ce6a059c1b60db6a3b0c1bb83c12be85a63cc523ec5f62c8",
+      "bytes": 1908
+    },
+    {
+      "repository_path": "results/v14/statistical_audit/A5_interval_performance.csv",
+      "asset_path": "audit_snapshots/statistical_audit/A5_interval_performance.csv",
+      "sha256": "19fb642c2d74721ff059d29ae5bedcaeb8f73b4c2a93189cd4f2237967803638",
+      "bytes": 168874
+    },
+    {
+      "repository_path": "results/v14/statistical_audit/A5_oracle_controls.csv",
+      "asset_path": "audit_snapshots/statistical_audit/A5_oracle_controls.csv",
+      "sha256": "fd04dd1bf480b61669609262cc395c4a29778b9ea6120385ba2338b87216f950",
+      "bytes": 7653
+    },
+    {
+      "repository_path": "results/v14/statistical_audit/A6_empirical_profiles.csv",
+      "asset_path": "audit_snapshots/statistical_audit/A6_empirical_profiles.csv",
+      "sha256": "941081841ccaf9d405dcd53e18cd46fb37e8526f4395426817ebb0c3376d5bca",
+      "bytes": 7188
+    },
+    {
+      "repository_path": "results/v14/statistical_audit/A6_empirical_DGM_correspondence.csv",
+      "asset_path": "audit_snapshots/statistical_audit/A6_empirical_DGM_correspondence.csv",
+      "sha256": "adae44b0c471f7eea6bb39295b6097db68582e236e4493918d564fd73d8d92a5",
+      "bytes": 2258
+    },
+    {
+      "repository_path": "results/v14/statistical_audit/A6_existing_simulation_features.csv",
+      "asset_path": "audit_snapshots/statistical_audit/A6_existing_simulation_features.csv",
+      "sha256": "5e156fdc0fc70cc3ea922c4ad3b5f4e52218013e3c80804b545195ca16d4a9b1",
+      "bytes": 4440
+    },
+    {
+      "repository_path": "results/v14/statistical_audit/A6_law_inventory.csv",
+      "asset_path": "audit_snapshots/statistical_audit/A6_law_inventory.csv",
+      "sha256": "d1efb74bf1488c44c0fddd1cd4db7120b0be828299062dab8c852a3c2d5c7c9c",
+      "bytes": 2067
+    },
+    {
+      "repository_path": "results/v14/statistical_audit/A6_quantization_target_rejection.csv",
+      "asset_path": "audit_snapshots/statistical_audit/A6_quantization_target_rejection.csv",
+      "sha256": "4ef5ff0530f953bc1807e6235aa43c341e9fc0bd48788e3d379dfba69b4bd528",
+      "bytes": 936
+    },
+    {
+      "repository_path": "results/v14/statistical_audit/A6_structure_gap_gate.csv",
+      "asset_path": "audit_snapshots/statistical_audit/A6_structure_gap_gate.csv",
+      "sha256": "7b5246d0ad1422823c6bea82d506ce03212f7d55282635d2e4e90a1a8234365f",
+      "bytes": 962
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 # CAMV-Eval
 
-Numerical reproduction package for **Calibration and Bootstrap Inference for Multi-View Grasp Verification**, manuscript v13.4.5 (numerical evidence from v12 and the preserved v8 base), by Minsu Jo, Namhyun Yoo, Beomseok Kim, Hoansuk Choi, and Jinhong Yang.
+Numerical reproduction package for **Threshold Calibration and Bootstrap Inference for Multi-View Grasp Verification**, manuscript v14.3 (v14 additions plus the preserved v8/v12 numerical evidence), by Minsu Jo, Namhyun Yoo, Beomseok Kim, Hoansuk Choi, and Jinhong Yang.
 
 This package evaluates how calibration choices and uncertainty targets affect comparisons of multi-view grasp verifiers. It provides the original analysis functions, saved numerical inputs, reference results, and reproducible verification commands. A GPU, model weights, source images, and API credentials are not needed for the numerical replay.
 
@@ -8,7 +8,19 @@ This package evaluates how calibration choices and uncertainty targets affect co
 
 ## Manuscript versions
 
-Versions v13–v13.4.5 retain the numerical evidence in the v8 and v12 releases. See the [version map](docs/MANUSCRIPT_VERSION_MAP.md) and [editorial history](docs/EDITORIAL_HISTORY.md). No new model inference or simulation release is required for these editorial revisions.
+Versions v13–v13.4.5 retain the numerical evidence in the v8 and v12 releases. See the [version map](docs/MANUSCRIPT_VERSION_MAP.md) and [editorial history](docs/EDITORIAL_HISTORY.md). No new model inference or simulation release was required for those editorial revisions. Manuscript v14 adds the separate numerical experiment and audits described below; v14.1–v14.3 adjust manuscript layout and Figures 1–2 without changing its numerical results.
+
+## V14 additions and replay
+
+The [v14-repro-1 release](https://github.com/JoMinsu-KU/camv-eval/releases/tag/v14-repro-1) supplies the empirical-group-population experiment and supporting empirical/statistical audit snapshots. Download the ZIP and checksum using [the v14 instructions](docs/REPRODUCIBILITY-v14.md). Small result CSVs are browsable in [results/v14](results/v14). Original v8 and v12 releases are preserved.
+
+```text
+gh release download v14-repro-1 --repo JoMinsu-KU/camv-eval --pattern CAMV-Eval_v14_Reproduction.zip --dir ../v14-assets
+python -m pip install -r requirements-v14.txt
+python reproduce_v14.py --asset ../v14-assets/CAMV-Eval_v14_Reproduction.zip --output ../v14-replay --fresh-first
+```
+
+This independently recalculates all 4,000 paired-scorer saved records, 80,000 interval endpoints and 80 summary rows, and regenerates six selected outer datasets. The number of independent outer datasets is 2,000. Audit snapshots A1–A7 have a distinct scope; these commands do not redo raw image or model-response audits. See the [target and replay limits](docs/REPRODUCIBILITY-v14.md).
 
 ## V12 additions
 
@@ -88,7 +100,7 @@ The release is checked on Windows using the existing Python 3.11.16 reproduction
 
 Author-owned software is released under the [MIT License](LICENSE), as confirmed by the author on September 15, 2026. External datasets, metadata, model weights, and third-party notices retain their own terms; see [LICENSE_SCOPE.md](LICENSE_SCOPE.md). Source images, model weights, author photos, and private credentials are not included. Historical archive statements about a local review package are preserved as provenance; the current software licensing statement applies to author-owned code.
 
-Use [CITATION.cff](CITATION.cff) to cite the software. The repository provides the numerical materials supporting the associated manuscript, **Calibration and Bootstrap Inference for Multi-View Grasp Verification**. The v8-repro-1 and v12-repro-1 numerical releases are public.
+Use [CITATION.cff](CITATION.cff) to cite the software. The repository provides the numerical materials supporting the associated manuscript, **Threshold Calibration and Bootstrap Inference for Multi-View Grasp Verification**. The fixed numerical archives are separated into v8-repro-1, v12-repro-1 and v14-repro-1; the latter adds a separate empirical-group-population replay.
 
 ## Manuscript version mapping
 

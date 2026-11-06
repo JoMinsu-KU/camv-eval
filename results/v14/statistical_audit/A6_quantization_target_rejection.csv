@@ -1,0 +1,5 @@
+group_size,metric,continuous_law,quantized_law,continuous_target_pp,quantized_target_pp,continuous_rejection_pct,quantized_rejection_pct,interpretation
+equal_group,FSR,A_C_EQ,A_Q_EQ,-12.518565231538126,-10.042277652429954,41.9,4.1,"score resolution, effect magnitude and sampling distribution change together; not fixed-effect power comparison"
+equal_group,recall,A_C_EQ,A_Q_EQ,-0.3125134242769415,0.4125038530286262,0.1,0.0,"score resolution, effect magnitude and sampling distribution change together; not fixed-effect power comparison"
+unequal_group,FSR,A_C_UQ,A_Q_UQ,-12.526116935063115,-10.405059931935638,42.9,4.0,"score resolution, effect magnitude and sampling distribution change together; not fixed-effect power comparison"
+unequal_group,recall,A_C_UQ,A_Q_UQ,-0.3892084330186203,0.25458493705703206,0.2,0.0,"score resolution, effect magnitude and sampling distribution change together; not fixed-effect power comparison"

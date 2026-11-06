@@ -1,0 +1,35 @@
+{
+  "export_id": "camv-v14-public-20261106-v1",
+  "created_utc": "2026-11-06T10:28:40.538148+00:00",
+  "source_supplement_sha256": "4ed3016509307c51716034c2246ce355644cf1500bf382a16abf3e09b91ec67d",
+  "source_supplement_bytes": 124874069,
+  "omitted_internal_prose_files": {
+    "audit_snapshots/ADDITIONAL_ANALYSES_AND_EXPERIMENTS_REPORT.ko.md": {
+      "bytes": 41731,
+      "sha256": "694113146f33ec9610e4f5d34c6774e585ed17975b605edae4f33e3a94e100ea"
+    },
+    "audit_snapshots/empirical_audit/EMPIRICAL_AUDIT_REPORT.ko.md": {
+      "bytes": 13320,
+      "sha256": "8a6d746b8181fa4a361c682e9d04b01e757e25b13cff7cc77ae13ef5b49ee8ab"
+    },
+    "audit_snapshots/full_replay_audit/REVIEW_REQUIREMENTS_RECHECK.ko.md": {
+      "bytes": 7201,
+      "sha256": "625425418e13017621128e54bb26374c0d53cb5c6ca923c319cf95b53e497044"
+    },
+    "audit_snapshots/statistical_audit/DIAGNOSTIC_REPORT.ko.md": {
+      "bytes": 7650,
+      "sha256": "0441c15969200f0e47ece8a816f0c98cddd3f9eb76a676d055ad5ad51af7fda6"
+    }
+  },
+  "public_metadata_rewritten": [
+    "COPIED-SOURCE-MANIFEST.json",
+    "MANIFEST-SHA256.json",
+    "MANUSCRIPT_VERSION_MAP.md",
+    "README.ko.md",
+    "README.md"
+  ],
+  "retained_files_byte_identical": 4157,
+  "numerical_engine_protocol_inputs_arrays_csv_changed": false,
+  "new_experiments_executed": false,
+  "source_supplement_modified": false
+}

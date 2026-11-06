@@ -1,0 +1,16 @@
+{
+  "adapter_id": "v14-portable-saved-replay-20261104-v1",
+  "policy": "Frozen files keep their exact bytes. No historical absolute path is opened; only the mapped packaged path is verified. The engine SOURCE variable is rebound at runtime.",
+  "frozen_pin_paths": {
+    "E:\\SoftwareX\\camv-eval-study-v1\\amendments\\score-ties-revision-20260915-v1\\scorer\\inputs\\collections.json.gz": "inputs/collections.json.gz",
+    "E:\\SoftwareX\\camv-eval-study-v1\\amendments\\actual-review-20261104-v1\\simulation\\input-manifest.json": "empirical_laws/input-manifest.json",
+    "E:\\SoftwareX\\camv-eval-study-v1\\amendments\\actual-review-20261104-v1\\simulation\\empirical_law_engine.py": "empirical_laws/empirical_law_engine.py",
+    "E:\\SoftwareX\\camv-eval-study-v1\\amendments\\actual-review-20261104-v1\\simulation\\run_empirical_laws.py": "empirical_laws/run_empirical_laws.py",
+    "E:\\SoftwareX\\camv-eval-study-v1\\amendments\\actual-review-20261104-v1\\simulation\\frozen-core\\numerics.py": "empirical_laws/frozen-core/numerics.py",
+    "E:\\SoftwareX\\camv-eval-study-v1\\amendments\\actual-review-20261104-v1\\simulation\\frozen-core\\review_core.py": "empirical_laws/frozen-core/review_core.py",
+    "E:\\SoftwareX\\camv-eval-study-v1\\amendments\\actual-review-20261104-v1\\simulation\\PROTOCOL.md": "empirical_laws/PROTOCOL.md",
+    "E:\\SoftwareX\\camv-eval-study-v1\\amendments\\actual-review-20261104-v1\\simulation\\validation.json": "empirical_laws/validation.json",
+    "E:\\SoftwareX\\camv-eval-study-v1\\amendments\\actual-review-20261104-v1\\simulation\\pilot-runtime.json": "empirical_laws/pilot-runtime.json",
+    "E:\\SoftwareX\\camv-eval-study-v1\\amendments\\actual-review-20261104-v1\\simulation\\freeze_protocol.py": "empirical_laws/freeze_protocol.py"
+  }
+}
